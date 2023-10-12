@@ -1,0 +1,14 @@
+[options]
+mode bmc
+depth 10
+expect fail
+
+[engines]
+smtbmc yices
+
+[script]
+read -formal multiplier.sv
+prep -top multiplier
+
+[files]
+multiplier.sv

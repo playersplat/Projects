@@ -1,0 +1,34 @@
+VCD info: dumpfile iverilog.vcd opened for output.
+VCD warning: $dumpvars: Unsupported argument type (vpiPackage)
+
+Begin Test:
+
+  a_i = 0000, b_i = 0000
+  a_i = 0000, b_i = 0001
+  a_i = 0000, b_i = 0010
+  a_i = 0000, b_i = 0011
+  a_i = 0000, b_i = 0100
+  a_i = 0000, b_i = 0101
+  a_i = 0000, b_i = 0110
+  a_i = 0000, b_i = 0111
+  a_i = 0000, b_i = 1000
+  a_i = 0000, b_i = 1001
+  a_i = 0000, b_i = 1010
+  a_i = 0000, b_i = 1011
+  a_i = 0000, b_i = 1100
+  a_i = 0000, b_i = 1101
+  a_i = 0000, b_i = 1110
+  a_i = 0000, b_i = 1111
+  a_i = 0001, b_i = 0000
+  a_i = 0001, b_i = 0001
+quot_o: 0000, correct_quot_o: 0001
+rem_o: 0001, correct_rem_o: 0000
+Simulation time is               190000
+[0;31m    ______                    [0m
+[0;31m   / ____/_____________  _____[0m
+[0;31m  / __/ / ___/ ___/ __ \/ ___/[0m
+[0;31m / /___/ /  / /  / /_/ / /    [0m
+[0;31m/_____/_/  /_/   \____/_/     [0m
+
+Simulation Failed
+Current System Time is: 04:25:44 PM--02/24/2023

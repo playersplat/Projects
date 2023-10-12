@@ -1,0 +1,14 @@
+[options]
+mode bmc
+depth 10
+expect pass
+
+[engines]
+smtbmc yices
+
+[script]
+read -formal ram_1r1w_async.sv
+prep -top ram_1r1w_async
+
+[files]
+ram_1r1w_async.sv

@@ -1,0 +1,14 @@
+[options]
+mode bmc
+depth 10
+expect fail
+
+[engines]
+smtbmc yices
+
+[script]
+read -formal adder.sv
+prep -top adder
+
+[files]
+adder.sv

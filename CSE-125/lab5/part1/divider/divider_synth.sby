@@ -1,0 +1,14 @@
+[options]
+mode bmc
+depth 10
+expect fail
+
+[engines]
+smtbmc yices
+
+[script]
+read -formal divider.sv
+prep -top divider_synth
+
+[files]
+divider.sv

@@ -1,0 +1,4 @@
+initial
+
+state 0
+assume (= [binary_i] #b00000001)

@@ -1,0 +1,88 @@
+TOP.testbench.cg with cycle_time_p          10
+__________ ___________  _______________________________
+\______   \\_   _____/ /   _____/\_   _____/\__    ___/
+ |       _/ |    __)_  \_____  \  |    __)_   |    |   
+ |    |   \ |        \ /        \ |        \  |    |  0->1 time =         10
+ |____|_  //_______  //_______  //_______  /  |____|   
+ ASYNC  \/         \/         \/         \/            
+Begin Test:
+
+__________ ___________  _______________________________
+\______   \\_   _____/ /   _____/\_   _____/\__    ___/
+ |       _/ |    __)_  \_____  \  |    __)_   |    |   
+ |    |   \ |        \ /        \ |        \  |    |  1->0 time =        110
+ |____|_  //_______  //_______  //_______  /  |____|   
+ ASYNC  \/         \/         \/         \/            
+At Posedge           0: up_i = 0,gray_o:0000 correct_gray_o: 0000
+At Posedge           1: up_i = 1,gray_o:0001 correct_gray_o: 0001
+At Posedge           2: up_i = 1,gray_o:0011 correct_gray_o: 0011
+At Posedge           3: up_i = 1,gray_o:0010 correct_gray_o: 0010
+At Posedge           4: up_i = 1,gray_o:0110 correct_gray_o: 0110
+At Posedge           5: up_i = 1,gray_o:0111 correct_gray_o: 0111
+At Posedge           6: up_i = 1,gray_o:0101 correct_gray_o: 0101
+At Posedge           7: up_i = 1,gray_o:0100 correct_gray_o: 0100
+At Posedge           8: up_i = 1,gray_o:1100 correct_gray_o: 1100
+At Posedge           9: up_i = 1,gray_o:1101 correct_gray_o: 1101
+At Posedge          10: up_i = 1,gray_o:1111 correct_gray_o: 1111
+At Posedge          11: up_i = 1,gray_o:1110 correct_gray_o: 1110
+At Posedge          12: up_i = 1,gray_o:1010 correct_gray_o: 1010
+At Posedge          13: up_i = 1,gray_o:1011 correct_gray_o: 1011
+At Posedge          14: up_i = 1,gray_o:1001 correct_gray_o: 1001
+At Posedge          15: up_i = 1,gray_o:1000 correct_gray_o: 1000
+At Posedge          16: up_i = 1,gray_o:0000 correct_gray_o: 0000
+At Posedge          17: up_i = 1,gray_o:0001 correct_gray_o: 0001
+At Posedge          18: up_i = 1,gray_o:0011 correct_gray_o: 0011
+At Posedge          19: up_i = 1,gray_o:0010 correct_gray_o: 0010
+At Posedge          20: up_i = 1,gray_o:0110 correct_gray_o: 0110
+At Posedge          21: up_i = 1,gray_o:0111 correct_gray_o: 0111
+At Posedge          22: up_i = 1,gray_o:0101 correct_gray_o: 0101
+At Posedge          23: up_i = 1,gray_o:0100 correct_gray_o: 0100
+At Posedge          24: up_i = 0,gray_o:0100 correct_gray_o: 0100
+At Posedge          25: up_i = 0,gray_o:0100 correct_gray_o: 0100
+At Posedge          26: up_i = 0,gray_o:0100 correct_gray_o: 0100
+At Posedge          27: up_i = 0,gray_o:0100 correct_gray_o: 0100
+At Posedge          28: up_i = 1,gray_o:1100 correct_gray_o: 1100
+At Posedge          29: up_i = 1,gray_o:1101 correct_gray_o: 1101
+At Posedge          30: up_i = 1,gray_o:1111 correct_gray_o: 1111
+At Posedge          31: up_i = 1,gray_o:1110 correct_gray_o: 1110
+At Posedge          32: up_i = 1,gray_o:1010 correct_gray_o: 1010
+At Posedge          33: up_i = 1,gray_o:1011 correct_gray_o: 1011
+At Posedge          34: up_i = 1,gray_o:1001 correct_gray_o: 1001
+At Posedge          35: up_i = 1,gray_o:1000 correct_gray_o: 1000
+At Posedge          36: up_i = 1,gray_o:0000 correct_gray_o: 0000
+At Posedge          37: up_i = 1,gray_o:0001 correct_gray_o: 0001
+At Posedge          38: up_i = 1,gray_o:0011 correct_gray_o: 0011
+At Posedge          39: up_i = 1,gray_o:0010 correct_gray_o: 0010
+At Posedge          40: up_i = 1,gray_o:0110 correct_gray_o: 0110
+At Posedge          41: up_i = 1,gray_o:0111 correct_gray_o: 0111
+At Posedge          42: up_i = 1,gray_o:0101 correct_gray_o: 0101
+At Posedge          43: up_i = 1,gray_o:0100 correct_gray_o: 0100
+At Posedge          44: up_i = 1,gray_o:1100 correct_gray_o: 1100
+At Posedge          45: up_i = 1,gray_o:1101 correct_gray_o: 1101
+At Posedge          46: up_i = 1,gray_o:1111 correct_gray_o: 1111
+At Posedge          47: up_i = 1,gray_o:1110 correct_gray_o: 1110
+At Posedge          48: up_i = 1,gray_o:1010 correct_gray_o: 1010
+At Posedge          49: up_i = 1,gray_o:1011 correct_gray_o: 1011
+At Posedge          50: up_i = 1,gray_o:1001 correct_gray_o: 1001
+At Posedge          51: up_i = 1,gray_o:1000 correct_gray_o: 1000
+At Posedge          52: up_i = 1,gray_o:0000 correct_gray_o: 0000
+At Posedge          53: up_i = 1,gray_o:0001 correct_gray_o: 0001
+At Posedge          54: up_i = 1,gray_o:0011 correct_gray_o: 0011
+At Posedge          55: up_i = 1,gray_o:0010 correct_gray_o: 0010
+At Posedge          56: up_i = 0,gray_o:0010 correct_gray_o: 0010
+At Posedge          57: up_i = 0,gray_o:0010 correct_gray_o: 0010
+At Posedge          58: up_i = 0,gray_o:0010 correct_gray_o: 0010
+At Posedge          59: up_i = 0,gray_o:0010 correct_gray_o: 0010
+At Posedge          60: up_i = 0,gray_o:0010 correct_gray_o: 0010
+At Posedge          61: up_i = 0,gray_o:0010 correct_gray_o: 0010
+At Posedge          62: up_i = 0,gray_o:0010 correct_gray_o: 0010
+At Posedge          63: up_i = 0,gray_o:0010 correct_gray_o: 0010
+- testbench.sv:156: Verilog $finish
+Simulation time is              1390000
+[0;32m    ____  ___   __________[0m
+[0;32m   / __ \/   | / ___/ ___/[0m
+[0;32m  / /_/ / /| | \__ \__  [0m
+[0;32m / ____/ ___ |___/ /__/ / [0m
+[0;32m/_/   /_/  |_/____/____/  [0m
+
+Simulation Succeeded!

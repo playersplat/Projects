@@ -1,0 +1,14 @@
+
+Begin Test:
+
+  a_i = 0000, b_i = 0000
+- testbench.sv:67: Verilog $finish
+  a_i = 0000, b_i = 0001
+Simulation time is                30000
+[0;32m    ____  ___   __________[0m
+[0;32m   / __ \/   | / ___/ ___/[0m
+[0;32m  / /_/ / /| | \__ \__  [0m
+[0;32m / ____/ ___ |___/ /__/ / [0m
+[0;32m/_/   /_/  |_/____/____/  [0m
+
+Simulation Succeeded!

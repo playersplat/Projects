@@ -1,0 +1,342 @@
+testbench.cg with cycle_time_p          10
+VCD info: dumpfile iverilog.vcd opened for output.
+VCD warning: $dumpvars: Unsupported argument type (vpiPackage)
+
+  ______          __  __                    __            __           __  _                  _          
+ /_  __/__  _____/ /_/ /_  ___  ____  _____/ /_     ___  / /___ ______/ /_(_)____      ____  (_)___  ___ 
+  / / / _ \/ ___/ __/ __ \/ _ \/ __ \/ ___/ __ \   / _ \/ / __ `/ ___/ __/ / ___/     / __ \/ / __ \/ _ \
+ / / /  __(__  ) /_/ /_/ /  __/ / / / /__/ / / /  /  __/ / /_/ (__  ) /_/ / /__      / /_/ / / /_/ /  __/
+/_/  \___/____/\__/_.___/\___/_/ /_/\___/_/ /_/   \___/_/\__,_/____/\__/_/\___/_____/ .___/_/ .___/\___/ 
+                                                                             /_____/_/     /_/           
+__________ ___________  _______________________________
+\______   \\_   _____/ /   _____/\_   _____/\__    ___/
+ |       _/ |    __)_  \_____  \  |    __)_   |    |   
+ |    |   \ |        \ /        \ |        \  |    |  0->1 time =         10
+ |____|_  //_______  //_______  //_______  /  |____|   
+ ASYNC  \/         \/         \/         \/            
+__________ ___________  _______________________________
+\______   \\_   _____/ /   _____/\_   _____/\__    ___/
+ |       _/ |    __)_  \_____  \  |    __)_   |    |   
+ |    |   \ |        \ /        \ |        \  |    |  1->0 time =        110
+ |____|_  //_______  //_______  //_______  /  |____|   
+ ASYNC  \/         \/         \/         \/            
+
+Begin Test:
+On Cycle           1 (RV: 2dda595b) -- valid_i: 0, yumi_n: 0
+On Cycle           2 (RV: 248b4b49) -- valid_i: 0, yumi_n: 0
+On Cycle           3 (RV: 9ff2ae3f) -- valid_i: 0, yumi_n: 0
+On Cycle           4 (RV: 150caf2a) -- valid_i: 1, yumi_n: 0
+On Cycle           5 (RV: 2c156358) -- valid_i: 1, yumi_n: 1
+On Cycle           6 (RV: c33f3886) -- valid_i: 0, yumi_n: 0
+On Cycle           7 (RV: c71a0c8e) -- valid_i: 1, yumi_n: 0
+On Cycle           8 (RV: ce2ff29c) -- valid_i: 1, yumi_n: 1
+On Cycle           9 (RV: 7d3599fa) -- valid_i: 1, yumi_n: 0
+On Cycle          10 (RV: 937dbc26) -- valid_i: 1, yumi_n: 1
+On Cycle          11 (RV: 39961773) -- valid_i: 0, yumi_n: 0
+On Cycle          12 (RV: d18bb4a3) -- valid_i: 0, yumi_n: 0
+On Cycle          13 (RV: 9799a82f) -- valid_i: 0, yumi_n: 0
+On Cycle          14 (RV: d9d292b3) -- valid_i: 0, yumi_n: 0
+On Cycle          15 (RV: afd8565f) -- valid_i: 0, yumi_n: 0
+On Cycle          16 (RV: 22290d44) -- valid_i: 1, yumi_n: 0
+On Cycle          17 (RV: 7bf8fdf7) -- valid_i: 0, yumi_n: 0
+On Cycle          18 (RV: e59b36cb) -- valid_i: 0, yumi_n: 0
+On Cycle          19 (RV: f3091ae6) -- valid_i: 1, yumi_n: 1
+On Cycle          20 (RV: 2d28db5a) -- valid_i: 1, yumi_n: 0
+On Cycle          21 (RV: 14cfc129) -- valid_i: 0, yumi_n: 0
+On Cycle          22 (RV: f682e2ed) -- valid_i: 0, yumi_n: 0
+On Cycle          23 (RV: ed536cda) -- valid_i: 1, yumi_n: 1
+On Cycle          24 (RV: b29fb665) -- valid_i: 0, yumi_n: 0
+On Cycle          25 (RV: da8ae2b5) -- valid_i: 0, yumi_n: 0
+On Cycle          26 (RV: efbe94df) -- valid_i: 0, yumi_n: 0
+On Cycle          27 (RV: 3cf11979) -- valid_i: 0, yumi_n: 0
+On Cycle          28 (RV: 2231ff44) -- valid_i: 1, yumi_n: 0
+On Cycle          29 (RV: e8740cd0) -- valid_i: 1, yumi_n: 1
+On Cycle          30 (RV: 15090b2a) -- valid_i: 1, yumi_n: 0
+On Cycle          31 (RV: 55f6adab) -- valid_i: 0, yumi_n: 0
+On Cycle          32 (RV: 076fcf0e) -- valid_i: 1, yumi_n: 1
+On Cycle          33 (RV: 6e5daddc) -- valid_i: 1, yumi_n: 0
+On Cycle          34 (RV: cd5ebc9a) -- valid_i: 1, yumi_n: 1
+On Cycle          35 (RV: fedf72fd) -- valid_i: 0, yumi_n: 0
+On Cycle          36 (RV: e1f102c3) -- valid_i: 0, yumi_n: 0
+On Cycle          37 (RV: 2b0eed56) -- valid_i: 1, yumi_n: 0
+On Cycle          38 (RV: 2779e94e) -- valid_i: 1, yumi_n: 1
+On Cycle          39 (RV: b3d97667) -- valid_i: 0, yumi_n: 0
+On Cycle          40 (RV: 8531340a) -- valid_i: 1, yumi_n: 0
+On Cycle          41 (RV: 5b6fb9b6) -- valid_i: 1, yumi_n: 1
+On Cycle          42 (RV: 9c0e8a38) -- valid_i: 1, yumi_n: 0
+On Cycle          43 (RV: 3cd18779) -- valid_i: 0, yumi_n: 0
+On Cycle          44 (RV: dc2bc4b8) -- valid_i: 1, yumi_n: 1
+On Cycle          45 (RV: 4a74bf94) -- valid_i: 1, yumi_n: 0
+On Cycle          46 (RV: 49c65d93) -- valid_i: 0, yumi_n: 0
+On Cycle          47 (RV: 823f2c04) -- valid_i: 1, yumi_n: 1
+On Cycle          48 (RV: acb7ca59) -- valid_i: 0, yumi_n: 0
+On Cycle          49 (RV: 6dcb69db) -- valid_i: 0, yumi_n: 0
+On Cycle          50 (RV: a6fcde4d) -- valid_i: 0, yumi_n: 0
+On Cycle          51 (RV: 6cb0b7d9) -- valid_i: 0, yumi_n: 0
+On Cycle          52 (RV: b6a4266d) -- valid_i: 0, yumi_n: 0
+On Cycle          53 (RV: bb45e276) -- valid_i: 1, yumi_n: 0
+On Cycle          54 (RV: 653b49ca) -- valid_i: 1, yumi_n: 1
+On Cycle          55 (RV: 5b172db6) -- valid_i: 1, yumi_n: 0
+On Cycle          56 (RV: 4a937195) -- valid_i: 0, yumi_n: 0
+On Cycle          57 (RV: a3071a46) -- valid_i: 1, yumi_n: 1
+On Cycle          58 (RV: 02749b04) -- valid_i: 1, yumi_n: 0
+On Cycle          59 (RV: 7bd261f7) -- valid_i: 0, yumi_n: 0
+On Cycle          60 (RV: 34980769) -- valid_i: 0, yumi_n: 0
+On Cycle          61 (RV: da6ebab4) -- valid_i: 1, yumi_n: 1
+On Cycle          62 (RV: 44018d88) -- valid_i: 1, yumi_n: 0
+On Cycle          63 (RV: 147cd928) -- valid_i: 1, yumi_n: 1
+On Cycle          64 (RV: 9690042d) -- valid_i: 0, yumi_n: 0
+On Cycle          65 (RV: e3c530c7) -- valid_i: 0, yumi_n: 0
+On Cycle          66 (RV: 975c9c2e) -- valid_i: 1, yumi_n: 0
+On Cycle          67 (RV: 8477e408) -- valid_i: 1, yumi_n: 1
+On Cycle          68 (RV: 0e41451c) -- valid_i: 1, yumi_n: 0
+On Cycle          69 (RV: fea7a6fd) -- valid_i: 0, yumi_n: 0
+On Cycle          70 (RV: 149e0729) -- valid_i: 0, yumi_n: 0
+On Cycle          71 (RV: 8e37901c) -- valid_i: 1, yumi_n: 1
+On Cycle          72 (RV: 43356786) -- valid_i: 1, yumi_n: 0
+On Cycle          73 (RV: ed3408da) -- valid_i: 1, yumi_n: 1
+On Cycle          74 (RV: 9eb7c63d) -- valid_i: 0, yumi_n: 0
+On Cycle          75 (RV: 334ea766) -- valid_i: 1, yumi_n: 0
+On Cycle          76 (RV: b855c470) -- valid_i: 1, yumi_n: 1
+On Cycle          77 (RV: b9f50473) -- valid_i: 0, yumi_n: 0
+On Cycle          78 (RV: 5d7199ba) -- valid_i: 1, yumi_n: 0
+On Cycle          79 (RV: 2f3ab35e) -- valid_i: 1, yumi_n: 1
+On Cycle          80 (RV: 7d4779fa) -- valid_i: 1, yumi_n: 0
+On Cycle          81 (RV: 6a8e05d5) -- valid_i: 0, yumi_n: 0
+On Cycle          82 (RV: 8d24f61a) -- valid_i: 1, yumi_n: 1
+On Cycle          83 (RV: dcf000b9) -- valid_i: 0, yumi_n: 0
+On Cycle          84 (RV: 1b876137) -- valid_i: 0, yumi_n: 0
+On Cycle          85 (RV: 4b273796) -- valid_i: 1, yumi_n: 0
+On Cycle          86 (RV: 603921c0) -- valid_i: 1, yumi_n: 1
+On Cycle          87 (RV: 13259f26) -- valid_i: 1, yumi_n: 0
+On Cycle          88 (RV: db461ab6) -- valid_i: 1, yumi_n: 1
+On Cycle          89 (RV: 3e99837d) -- valid_i: 0, yumi_n: 0
+On Cycle          90 (RV: 6e5f0fdc) -- valid_i: 1, yumi_n: 0
+On Cycle          91 (RV: 43615786) -- valid_i: 1, yumi_n: 1
+On Cycle          92 (RV: 3c03ff78) -- valid_i: 1, yumi_n: 0
+On Cycle          93 (RV: 3f5a9b7e) -- valid_i: 1, yumi_n: 1
+On Cycle          94 (RV: ed8d80db) -- valid_i: 0, yumi_n: 0
+On Cycle          95 (RV: e7c3b6cf) -- valid_i: 0, yumi_n: 0
+On Cycle          96 (RV: 3ced2b79) -- valid_i: 0, yumi_n: 0
+On Cycle          97 (RV: fd28e4fa) -- valid_i: 1, yumi_n: 0
+On Cycle          98 (RV: b0bcee61) -- valid_i: 0, yumi_n: 0
+On Cycle          99 (RV: 0b940917) -- valid_i: 0, yumi_n: 0
+On Cycle         100 (RV: d0f578a1) -- valid_i: 0, yumi_n: 0
+On Cycle         101 (RV: 43779186) -- valid_i: 1, yumi_n: 1
+On Cycle         102 (RV: a8639650) -- valid_i: 1, yumi_n: 0
+On Cycle         103 (RV: 7a8c59f5) -- valid_i: 0, yumi_n: 0
+On Cycle         104 (RV: 9ab48835) -- valid_i: 0, yumi_n: 0
+On Cycle         105 (RV: 949a8a29) -- valid_i: 0, yumi_n: 0
+On Cycle         106 (RV: 60b175c1) -- valid_i: 0, yumi_n: 0
+On Cycle         107 (RV: e2e574c5) -- valid_i: 0, yumi_n: 0
+On Cycle         108 (RV: cc01b498) -- valid_i: 1, yumi_n: 1
+On Cycle         109 (RV: 25b27b4b) -- valid_i: 0, yumi_n: 0
+On Cycle         110 (RV: b98c4273) -- valid_i: 0, yumi_n: 0
+On Cycle         111 (RV: f622e6ec) -- valid_i: 1, yumi_n: 0
+On Cycle         112 (RV: c550168a) -- valid_i: 1, yumi_n: 1
+On Cycle         113 (RV: 2758d14e) -- valid_i: 1, yumi_n: 0
+On Cycle         114 (RV: d44b80a8) -- valid_i: 1, yumi_n: 1
+On Cycle         115 (RV: 549efda9) -- valid_i: 0, yumi_n: 0
+On Cycle         116 (RV: d0ca8ca1) -- valid_i: 0, yumi_n: 0
+On Cycle         117 (RV: 070bb90e) -- valid_i: 1, yumi_n: 0
+On Cycle         118 (RV: f33466e6) -- valid_i: 1, yumi_n: 1
+On Cycle         119 (RV: cfd6c09f) -- valid_i: 0, yumi_n: 0
+On Cycle         120 (RV: 152fb52a) -- valid_i: 1, yumi_n: 0
+On Cycle         121 (RV: 155a1d2a) -- valid_i: 1, yumi_n: 1
+On Cycle         122 (RV: c6b5f48d) -- valid_i: 0, yumi_n: 0
+On Cycle         123 (RV: 4f75ff9e) -- valid_i: 1, yumi_n: 0
+On Cycle         124 (RV: 9c6de638) -- valid_i: 1, yumi_n: 1
+On Cycle         125 (RV: bccfa879) -- valid_i: 0, yumi_n: 0
+On Cycle         126 (RV: 6464e3c8) -- valid_i: 1, yumi_n: 0
+On Cycle         127 (RV: 652345ca) -- valid_i: 1, yumi_n: 1
+On Cycle         128 (RV: 09ff4113) -- valid_i: 0, yumi_n: 0
+On Cycle         129 (RV: 35a0c96b) -- valid_i: 0, yumi_n: 0
+On Cycle         130 (RV: e3b7aec7) -- valid_i: 0, yumi_n: 0
+On Cycle         131 (RV: 5b0bddb6) -- valid_i: 1, yumi_n: 0
+On Cycle         132 (RV: 5d059dba) -- valid_i: 1, yumi_n: 1
+On Cycle         133 (RV: 6216abc4) -- valid_i: 1, yumi_n: 0
+On Cycle         134 (RV: 5c8295b9) -- valid_i: 0, yumi_n: 0
+On Cycle         135 (RV: 492fd392) -- valid_i: 1, yumi_n: 1
+On Cycle         136 (RV: da269ab4) -- valid_i: 1, yumi_n: 0
+On Cycle         137 (RV: 3fbb3b7f) -- valid_i: 0, yumi_n: 0
+On Cycle         138 (RV: c3339086) -- valid_i: 1, yumi_n: 1
+On Cycle         139 (RV: 7d6df5fa) -- valid_i: 1, yumi_n: 0
+On Cycle         140 (RV: f92794f2) -- valid_i: 1, yumi_n: 1
+On Cycle         141 (RV: 19452132) -- valid_i: 1, yumi_n: 0
+On Cycle         142 (RV: dece5ebd) -- valid_i: 0, yumi_n: 0
+On Cycle         143 (RV: 424fcd84) -- valid_i: 1, yumi_n: 1
+On Cycle         144 (RV: f249a4e4) -- valid_i: 1, yumi_n: 0
+On Cycle         145 (RV: 6543cfca) -- valid_i: 1, yumi_n: 1
+On Cycle         146 (RV: 54a879a9) -- valid_i: 0, yumi_n: 0
+On Cycle         147 (RV: d095a8a1) -- valid_i: 0, yumi_n: 0
+On Cycle         148 (RV: 4765a98e) -- valid_i: 1, yumi_n: 0
+On Cycle         149 (RV: fd8b6afb) -- valid_i: 0, yumi_n: 0
+On Cycle         150 (RV: 85e51e0b) -- valid_i: 0, yumi_n: 0
+On Cycle         151 (RV: f78290ef) -- valid_i: 0, yumi_n: 0
+On Cycle         152 (RV: 64c83dc9) -- valid_i: 0, yumi_n: 0
+On Cycle         153 (RV: 1b60e536) -- valid_i: 1, yumi_n: 1
+On Cycle         154 (RV: bab14875) -- valid_i: 0, yumi_n: 0
+On Cycle         155 (RV: c7e8568f) -- valid_i: 0, yumi_n: 0
+On Cycle         156 (RV: 35cdbf6b) -- valid_i: 0, yumi_n: 0
+On Cycle         157 (RV: 4465e788) -- valid_i: 1, yumi_n: 0
+On Cycle         158 (RV: d73fb4ae) -- valid_i: 1, yumi_n: 1
+On Cycle         159 (RV: 4df3819b) -- valid_i: 0, yumi_n: 0
+On Cycle         160 (RV: 493e4592) -- valid_i: 1, yumi_n: 0
+On Cycle         161 (RV: 1444df28) -- valid_i: 1, yumi_n: 1
+On Cycle         162 (RV: 9684e02d) -- valid_i: 0, yumi_n: 0
+On Cycle         163 (RV: 25b75f4b) -- valid_i: 0, yumi_n: 0
+On Cycle         164 (RV: e169b0c2) -- valid_i: 1, yumi_n: 0
+On Cycle         165 (RV: 8f1cf61e) -- valid_i: 1, yumi_n: 1
+On Cycle         166 (RV: 06b3050d) -- valid_i: 0, yumi_n: 0
+On Cycle         167 (RV: 7679fdec) -- valid_i: 1, yumi_n: 0
+On Cycle         168 (RV: 0c039d18) -- valid_i: 1, yumi_n: 1
+On Cycle         169 (RV: 68ae1bd1) -- valid_i: 0, yumi_n: 0
+On Cycle         170 (RV: c3761c86) -- valid_i: 1, yumi_n: 0
+On Cycle         171 (RV: a0c02441) -- valid_i: 0, yumi_n: 0
+On Cycle         172 (RV: 9dbf643b) -- valid_i: 0, yumi_n: 0
+On Cycle         173 (RV: 6c44f9d8) -- valid_i: 1, yumi_n: 1
+On Cycle         174 (RV: 29efe953) -- valid_i: 0, yumi_n: 0
+On Cycle         175 (RV: ab196256) -- valid_i: 1, yumi_n: 0
+On Cycle         176 (RV: adac225b) -- valid_i: 0, yumi_n: 0
+On Cycle         177 (RV: f166fae2) -- valid_i: 1, yumi_n: 1
+On Cycle         178 (RV: 8273e204) -- valid_i: 1, yumi_n: 0
+On Cycle         179 (RV: 39ac0373) -- valid_i: 0, yumi_n: 0
+On Cycle         180 (RV: ec50b4d8) -- valid_i: 1, yumi_n: 1
+On Cycle         181 (RV: 093e4d12) -- valid_i: 1, yumi_n: 0
+On Cycle         182 (RV: dc0344b8) -- valid_i: 1, yumi_n: 1
+On Cycle         183 (RV: 9c811239) -- valid_i: 0, yumi_n: 0
+On Cycle         184 (RV: f287b6e5) -- valid_i: 0, yumi_n: 0
+On Cycle         185 (RV: d0c5dca1) -- valid_i: 0, yumi_n: 0
+On Cycle         186 (RV: 15890f2b) -- valid_i: 0, yumi_n: 0
+On Cycle         187 (RV: 40905d81) -- valid_i: 0, yumi_n: 0
+On Cycle         188 (RV: 641b85c8) -- valid_i: 1, yumi_n: 0
+On Cycle         189 (RV: 13b55527) -- valid_i: 0, yumi_n: 0
+On Cycle         190 (RV: 50d5f9a1) -- valid_i: 0, yumi_n: 0
+On Cycle         191 (RV: 8f8c6e1f) -- valid_i: 0, yumi_n: 0
+On Cycle         192 (RV: 82223a04) -- valid_i: 1, yumi_n: 1
+On Cycle         193 (RV: 2c2d2358) -- valid_i: 1, yumi_n: 0
+On Cycle         194 (RV: cb5c8096) -- valid_i: 1, yumi_n: 1
+On Cycle         195 (RV: 0a6e9314) -- valid_i: 1, yumi_n: 0
+On Cycle         196 (RV: 8919b412) -- valid_i: 1, yumi_n: 1
+On Cycle         197 (RV: cb227096) -- valid_i: 1, yumi_n: 0
+On Cycle         198 (RV: d8ace2b1) -- valid_i: 0, yumi_n: 0
+On Cycle         199 (RV: 2ac2d555) -- valid_i: 0, yumi_n: 0
+On Cycle         200 (RV: f6c38eed) -- valid_i: 0, yumi_n: 0
+On Cycle         201 (RV: 158b2b2b) -- valid_i: 0, yumi_n: 0
+On Cycle         202 (RV: 7ab11bf5) -- valid_i: 0, yumi_n: 0
+On Cycle         203 (RV: 56b403ad) -- valid_i: 0, yumi_n: 0
+On Cycle         204 (RV: 93c12227) -- valid_i: 0, yumi_n: 0
+On Cycle         205 (RV: 4249ff84) -- valid_i: 1, yumi_n: 1
+On Cycle         206 (RV: d3a8e4a7) -- valid_i: 0, yumi_n: 0
+On Cycle         207 (RV: f3d7a6e7) -- valid_i: 0, yumi_n: 0
+On Cycle         208 (RV: dcef90b9) -- valid_i: 0, yumi_n: 0
+On Cycle         209 (RV: a4da5649) -- valid_i: 0, yumi_n: 0
+On Cycle         210 (RV: 6de5bbdb) -- valid_i: 0, yumi_n: 0
+On Cycle         211 (RV: 64ba0fc9) -- valid_i: 0, yumi_n: 0
+On Cycle         212 (RV: 2883b151) -- valid_i: 0, yumi_n: 0
+On Cycle         213 (RV: d0bc5ea1) -- valid_i: 0, yumi_n: 0
+On Cycle         214 (RV: 1546dd2a) -- valid_i: 1, yumi_n: 0
+On Cycle         215 (RV: 7d2a45fa) -- valid_i: 1, yumi_n: 1
+On Cycle         216 (RV: a2e62045) -- valid_i: 0, yumi_n: 0
+On Cycle         217 (RV: 41a10583) -- valid_i: 0, yumi_n: 0
+On Cycle         218 (RV: be75427c) -- valid_i: 1, yumi_n: 0
+On Cycle         219 (RV: b9461472) -- valid_i: 1, yumi_n: 1
+On Cycle         220 (RV: ff4f3cfe) -- valid_i: 1, yumi_n: 0
+On Cycle         221 (RV: b455f268) -- valid_i: 1, yumi_n: 1
+On Cycle         222 (RV: b7dfaa6f) -- valid_i: 0, yumi_n: 0
+On Cycle         223 (RV: 43460d86) -- valid_i: 1, yumi_n: 0
+On Cycle         224 (RV: 782321f0) -- valid_i: 1, yumi_n: 1
+On Cycle         225 (RV: 1c719738) -- valid_i: 1, yumi_n: 0
+On Cycle         226 (RV: 20769140) -- valid_i: 1, yumi_n: 1
+On Cycle         227 (RV: 94097628) -- valid_i: 1, yumi_n: 0
+On Cycle         228 (RV: 7b0da9f6) -- valid_i: 1, yumi_n: 1
+On Cycle         229 (RV: e2bf1ac5) -- valid_i: 0, yumi_n: 0
+On Cycle         230 (RV: 602831c0) -- valid_i: 1, yumi_n: 0
+On Cycle         231 (RV: 3a625f74) -- valid_i: 1, yumi_n: 1
+On Cycle         232 (RV: 1cde7139) -- valid_i: 0, yumi_n: 0
+On Cycle         233 (RV: d86a6ab0) -- valid_i: 1, yumi_n: 0
+On Cycle         234 (RV: 1e1c873c) -- valid_i: 1, yumi_n: 1
+On Cycle         235 (RV: 1521932a) -- valid_i: 1, yumi_n: 0
+On Cycle         236 (RV: 3124d362) -- valid_i: 1, yumi_n: 1
+On Cycle         237 (RV: 0aec3515) -- valid_i: 0, yumi_n: 0
+On Cycle         238 (RV: f0b14ee1) -- valid_i: 0, yumi_n: 0
+On Cycle         239 (RV: 0be29d17) -- valid_i: 0, yumi_n: 0
+On Cycle         240 (RV: a18bee43) -- valid_i: 0, yumi_n: 0
+On Cycle         241 (RV: 64b5e3c9) -- valid_i: 0, yumi_n: 0
+On Cycle         242 (RV: c3360486) -- valid_i: 1, yumi_n: 0
+On Cycle         243 (RV: 1297cb25) -- valid_i: 0, yumi_n: 0
+On Cycle         244 (RV: 60f69dc1) -- valid_i: 0, yumi_n: 0
+On Cycle         245 (RV: c69da28d) -- valid_i: 0, yumi_n: 0
+On Cycle         246 (RV: ad67e25a) -- valid_i: 1, yumi_n: 1
+On Cycle         247 (RV: 03d62707) -- valid_i: 0, yumi_n: 0
+On Cycle         248 (RV: 165b7b2c) -- valid_i: 1, yumi_n: 0
+On Cycle         249 (RV: 060a5d0c) -- valid_i: 1, yumi_n: 1
+On Cycle         250 (RV: b8ade671) -- valid_i: 0, yumi_n: 0
+On Cycle         251 (RV: 9de17c3b) -- valid_i: 0, yumi_n: 0
+On Cycle         252 (RV: 5b60e5b6) -- valid_i: 1, yumi_n: 0
+On Cycle         253 (RV: fbdfc2f7) -- valid_i: 0, yumi_n: 0
+On Cycle         254 (RV: cf14ce9e) -- valid_i: 1, yumi_n: 1
+On Cycle         255 (RV: ae78585c) -- valid_i: 1, yumi_n: 0
+On Cycle         256 (RV: 2ab8f755) -- valid_i: 0, yumi_n: 0
+On Cycle         257 (RV: 902a3a20) -- valid_i: 1, yumi_n: 1
+On Cycle         258 (RV: d00b12a0) -- valid_i: 1, yumi_n: 0
+On Cycle         259 (RV: 39600972) -- valid_i: 1, yumi_n: 1
+On Cycle         260 (RV: da3d8cb4) -- valid_i: 1, yumi_n: 0
+On Cycle         261 (RV: 6e8af5dd) -- valid_i: 0, yumi_n: 0
+On Cycle         262 (RV: 86dcf00d) -- valid_i: 0, yumi_n: 0
+On Cycle         263 (RV: 25b0994b) -- valid_i: 0, yumi_n: 0
+On Cycle         264 (RV: bccc4279) -- valid_i: 0, yumi_n: 0
+On Cycle         265 (RV: cf63da9e) -- valid_i: 1, yumi_n: 1
+On Cycle         266 (RV: fef064fd) -- valid_i: 0, yumi_n: 0
+On Cycle         267 (RV: bde0d27b) -- valid_i: 0, yumi_n: 0
+On Cycle         268 (RV: 47e2738f) -- valid_i: 0, yumi_n: 0
+On Cycle         269 (RV: 81c39a03) -- valid_i: 0, yumi_n: 0
+On Cycle         270 (RV: 71c129e3) -- valid_i: 0, yumi_n: 0
+On Cycle         271 (RV: 0e92431d) -- valid_i: 0, yumi_n: 0
+On Cycle         272 (RV: 58f93db1) -- valid_i: 0, yumi_n: 0
+On Cycle         273 (RV: 22119f44) -- valid_i: 1, yumi_n: 0
+On Cycle         274 (RV: ca9cbc95) -- valid_i: 0, yumi_n: 0
+On Cycle         275 (RV: f01d34e0) -- valid_i: 1, yumi_n: 1
+On Cycle         276 (RV: f6a178ed) -- valid_i: 0, yumi_n: 0
+On Cycle         277 (RV: 297a1552) -- valid_i: 1, yumi_n: 0
+On Cycle         278 (RV: 7c1e5bf8) -- valid_i: 1, yumi_n: 1
+On Cycle         279 (RV: 46dcb78d) -- valid_i: 0, yumi_n: 0
+On Cycle         280 (RV: a95fc452) -- valid_i: 1, yumi_n: 0
+On Cycle         281 (RV: 4219e784) -- valid_i: 1, yumi_n: 1
+On Cycle         282 (RV: 236afd46) -- valid_i: 1, yumi_n: 0
+On Cycle         283 (RV: c63a928c) -- valid_i: 1, yumi_n: 1
+On Cycle         284 (RV: 48487d90) -- valid_i: 1, yumi_n: 0
+On Cycle         285 (RV: 0beac117) -- valid_i: 0, yumi_n: 0
+On Cycle         286 (RV: 352d616a) -- valid_i: 1, yumi_n: 1
+On Cycle         287 (RV: 427b5784) -- valid_i: 1, yumi_n: 0
+On Cycle         288 (RV: d55bbcaa) -- valid_i: 1, yumi_n: 1
+On Cycle         289 (RV: 3e6f0f7c) -- valid_i: 1, yumi_n: 0
+On Cycle         290 (RV: b0520260) -- valid_i: 1, yumi_n: 1
+On Cycle         291 (RV: 5d4a4dba) -- valid_i: 1, yumi_n: 0
+On Cycle         292 (RV: c5a1608b) -- valid_i: 0, yumi_n: 0
+On Cycle         293 (RV: d31dfea6) -- valid_i: 1, yumi_n: 1
+On Cycle         294 (RV: 92831e25) -- valid_i: 0, yumi_n: 0
+On Cycle         295 (RV: 19058332) -- valid_i: 1, yumi_n: 0
+On Cycle         296 (RV: d10504a2) -- valid_i: 1, yumi_n: 1
+On Cycle         297 (RV: a48f7c49) -- valid_i: 0, yumi_n: 0
+On Cycle         298 (RV: 8a64b014) -- valid_i: 1, yumi_n: 0
+On Cycle         299 (RV: 9ec9c03d) -- valid_i: 0, yumi_n: 0
+On Cycle         300 (RV: 25f2034b) -- valid_i: 0, yumi_n: 0
+On Cycle         301 (RV: ae68305c) -- valid_i: 0, yumi_n: 1
+On Cycle         302 (RV: 23907547) -- valid_i: 0, yumi_n: 0
+On Cycle         303 (RV: 433e9786) -- valid_i: 1, yumi_n: 0
+On Cycle         304 (RV: 9caf7a39) -- valid_i: 0, yumi_n: 0
+On Cycle         305 (RV: da058ab4) -- valid_i: 0, yumi_n: 1
+On Cycle         306 (RV: 6851e5d0) -- valid_i: 1, yumi_n: 0
+On Cycle         307 (RV: 9622502c) -- valid_i: 0, yumi_n: 1
+On Cycle         308 (RV: 467c458c) -- valid_i: 0, yumi_n: 0
+Simulation time is              3220000
+         80 data transmitted
+[0;32m    ____  ___   __________[0m
+[0;32m   / __ \/   | / ___/ ___/[0m
+[0;32m  / /_/ / /| | \__ \__  [0m
+[0;32m / ____/ ___ |___/ /__/ / [0m
+[0;32m/_/   /_/  |_/____/____/  [0m
+
+Simulation Succeeded!
+Current System Time is: 11:23:42 PM--02/14/2023

@@ -1,0 +1,608 @@
+TOP.testbench.cg with cycle_time_p          10
+
+  ______          __  __                    __       ____  _       __  ___          
+ /_  __/__  _____/ /_/ /_  ___  ____  _____/ /_     / __ )(_)___ _/  |/  /___ ______
+  / / / _ \/ ___/ __/ __ \/ _ \/ __ \/ ___/ __ \   / __  / / __ `/ /|_/ / __ `/ ___/
+ / / /  __(__  ) /_/ /_/ /  __/ / / / /__/ / / /  / /_/ / / /_/ / /  / / /_/ / /__  
+/_/  \___/____/\__/_.___/\___/_/ /_/\___/_/ /_/  /_____/_/\__, /_/  /_/\__,_/\___/  
+                                                         /____/                     
+__________ ___________  _______________________________
+\______   \\_   _____/ /   _____/\_   _____/\__    ___/
+ |       _/ |    __)_  \_____  \  |    __)_   |    |   
+ |    |   \ |        \ /        \ |        \  |    |  0->1 time =         10
+ |____|_  //_______  //_______  //_______  /  |____|   
+ ASYNC  \/         \/         \/         \/            
+__________ ___________  _______________________________
+\______   \\_   _____/ /   _____/\_   _____/\__    ___/
+ |       _/ |    __)_  \_____  \  |    __)_   |    |   
+ |    |   \ |        \ /        \ |        \  |    |  1->0 time =        110
+ |____|_  //_______  //_______  //_______  /  |____|   
+ ASYNC  \/         \/         \/         \/            
+
+Begin Test:
+On Cycle           1 (RV: fc047624) -- valid_i: 1, ready_n: 0, data_i:     3
+On Cycle           2 (RV: 876f7742) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle           3 (RV: ae252c07) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle           4 (RV: d80a7500) -- valid_i: 1, ready_n: 1, data_i:     2
+On Cycle           5 (RV: d5d331d6) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration           0 -- data_o got          3
+
+On Cycle           6 (RV: 0b9ce53f) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle           7 (RV: c4207d39) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle           8 (RV: e2aedcf9) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle           9 (RV: ba8684d7) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          10 (RV: df37df7a) -- valid_i: 1, ready_n: 0, data_i:     2
+On Cycle          11 (RV: 92601a76) -- valid_i: 1, ready_n: 1, data_i:     6
+On Cycle          12 (RV: b538f67c) -- valid_i: 1, ready_n: 0, data_i:     6
+On output iteration           1 -- data_o got          4
+
+On Cycle          13 (RV: f1557042) -- valid_i: 1, ready_n: 1, data_i:     7
+On Cycle          14 (RV: 039f3aae) -- valid_i: 1, ready_n: 0, data_i:     7
+On output iteration           2 -- data_o got          9
+
+On Cycle          15 (RV: 9f17e476) -- valid_i: 1, ready_n: 1, data_i:    27
+On Cycle          16 (RV: 5b85762b) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration           3 -- data_o got         14
+
+On Cycle          17 (RV: 33814127) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          18 (RV: 343f75d2) -- valid_i: 1, ready_n: 0, data_i:    27
+On Cycle          19 (RV: 95bd1ea2) -- valid_i: 1, ready_n: 1, data_i:    22
+On Cycle          20 (RV: a54a6306) -- valid_i: 1, ready_n: 0, data_i:    22
+On output iteration           4 -- data_o got         38
+
+On Cycle          21 (RV: c0b80509) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          22 (RV: 321a8a0f) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          23 (RV: 524f51dc) -- valid_i: 1, ready_n: 1, data_i:    26
+On Cycle          24 (RV: 823152e4) -- valid_i: 1, ready_n: 0, data_i:    26
+On output iteration           5 -- data_o got         54
+
+On Cycle          25 (RV: 10866559) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          26 (RV: 4bd0db79) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          27 (RV: b8466aac) -- valid_i: 1, ready_n: 1, data_i:     1
+On Cycle          28 (RV: 220c9a80) -- valid_i: 1, ready_n: 0, data_i:     1
+On output iteration           6 -- data_o got         71
+
+On Cycle          29 (RV: 3e2345f7) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          30 (RV: f34a90ea) -- valid_i: 1, ready_n: 1, data_i:     8
+On Cycle          31 (RV: 36f7828d) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration           7 -- data_o got         60
+
+On Cycle          32 (RV: 663257af) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          33 (RV: 4bf2f889) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          34 (RV: 0f693f10) -- valid_i: 1, ready_n: 0, data_i:     8
+On Cycle          35 (RV: 252693ca) -- valid_i: 1, ready_n: 1, data_i:    26
+On Cycle          36 (RV: 87e359c6) -- valid_i: 1, ready_n: 0, data_i:    26
+On output iteration           8 -- data_o got         58
+
+On Cycle          37 (RV: ed6470ab) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          38 (RV: a568ea78) -- valid_i: 1, ready_n: 1, data_i:     4
+On Cycle          39 (RV: fc8c694c) -- valid_i: 1, ready_n: 0, data_i:     4
+On output iteration           9 -- data_o got         74
+
+On Cycle          40 (RV: cbbdc9f7) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          41 (RV: 3359ea5a) -- valid_i: 1, ready_n: 1, data_i:    14
+On Cycle          42 (RV: d589c854) -- valid_i: 1, ready_n: 0, data_i:    14
+On output iteration          10 -- data_o got         66
+
+On Cycle          43 (RV: 3ab7fc11) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          44 (RV: cf68c3c9) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          45 (RV: 4df98d29) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          46 (RV: 0d507e10) -- valid_i: 1, ready_n: 1, data_i:    19
+On Cycle          47 (RV: 35fca314) -- valid_i: 1, ready_n: 0, data_i:    19
+On output iteration          11 -- data_o got         69
+
+On Cycle          48 (RV: bb1b7971) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          49 (RV: 023f162a) -- valid_i: 1, ready_n: 1, data_i:    22
+On Cycle          50 (RV: 8da0cf31) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          12 -- data_o got         77
+
+On Cycle          51 (RV: 8146a48c) -- valid_i: 1, ready_n: 0, data_i:    22
+On Cycle          52 (RV: 464831e6) -- valid_i: 1, ready_n: 1, data_i:    25
+On Cycle          53 (RV: cd285d82) -- valid_i: 1, ready_n: 0, data_i:    25
+On output iteration          13 -- data_o got         86
+
+On Cycle          54 (RV: 6deaf886) -- valid_i: 1, ready_n: 1, data_i:     8
+On Cycle          55 (RV: 46ac746e) -- valid_i: 1, ready_n: 0, data_i:     8
+On output iteration          14 -- data_o got         97
+
+On Cycle          56 (RV: 6ce748d9) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          57 (RV: 7435c96e) -- valid_i: 1, ready_n: 1, data_i:    10
+On Cycle          58 (RV: e369578d) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          15 -- data_o got         89
+
+On Cycle          59 (RV: eab580b8) -- valid_i: 1, ready_n: 0, data_i:    10
+On Cycle          60 (RV: f5486054) -- valid_i: 1, ready_n: 1, data_i:    16
+On Cycle          61 (RV: 0e4d848d) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          16 -- data_o got         85
+
+On Cycle          62 (RV: f5dcaa69) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          63 (RV: 93d5dad6) -- valid_i: 1, ready_n: 0, data_i:    16
+On Cycle          64 (RV: 89be5e6e) -- valid_i: 1, ready_n: 1, data_i:     1
+On Cycle          65 (RV: 74523b65) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          17 -- data_o got         87
+
+On Cycle          66 (RV: e17612b2) -- valid_i: 1, ready_n: 0, data_i:     1
+On Cycle          67 (RV: 4a869c57) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          68 (RV: b9905a4e) -- valid_i: 1, ready_n: 1, data_i:    21
+On Cycle          69 (RV: 5c94e664) -- valid_i: 1, ready_n: 0, data_i:    21
+On output iteration          18 -- data_o got         74
+
+On Cycle          70 (RV: 1506fc99) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          71 (RV: 6bdccfa9) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          72 (RV: c0186540) -- valid_i: 1, ready_n: 1, data_i:     0
+On Cycle          73 (RV: a373e743) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          19 -- data_o got         83
+
+On Cycle          74 (RV: d167beaa) -- valid_i: 1, ready_n: 0, data_i:     0
+On Cycle          75 (RV: ecea9bf6) -- valid_i: 1, ready_n: 1, data_i:    22
+On Cycle          76 (RV: 8167c3e7) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          20 -- data_o got         70
+
+On Cycle          77 (RV: ee4f1dd7) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          78 (RV: 80e2bc22) -- valid_i: 1, ready_n: 0, data_i:    22
+On Cycle          79 (RV: a8214153) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          80 (RV: c284da86) -- valid_i: 1, ready_n: 1, data_i:    25
+On Cycle          81 (RV: 8957210e) -- valid_i: 1, ready_n: 0, data_i:    25
+On output iteration          21 -- data_o got         81
+
+On Cycle          82 (RV: eee11fe4) -- valid_i: 1, ready_n: 1, data_i:    18
+On Cycle          83 (RV: 49be76c9) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          22 -- data_o got         93
+
+On Cycle          84 (RV: eb424c40) -- valid_i: 1, ready_n: 0, data_i:    18
+On Cycle          85 (RV: 83e41849) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          86 (RV: 3e6e01f3) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          87 (RV: a9867c09) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          88 (RV: 762540f8) -- valid_i: 1, ready_n: 1, data_i:     3
+On Cycle          89 (RV: 2770ee5b) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          23 -- data_o got         96
+
+On Cycle          90 (RV: 90f3d996) -- valid_i: 1, ready_n: 0, data_i:     3
+On Cycle          91 (RV: fa855610) -- valid_i: 1, ready_n: 1, data_i:    10
+On Cycle          92 (RV: bd6c2f82) -- valid_i: 1, ready_n: 0, data_i:    10
+On output iteration          24 -- data_o got         84
+
+On Cycle          93 (RV: d09b696d) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          94 (RV: 8cff90de) -- valid_i: 1, ready_n: 1, data_i:     2
+On Cycle          95 (RV: 9fe02c1b) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          25 -- data_o got         80
+
+On Cycle          96 (RV: 648d6f80) -- valid_i: 1, ready_n: 0, data_i:     2
+On Cycle          97 (RV: 9d84bddd) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          98 (RV: 523b353b) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle          99 (RV: de550d7a) -- valid_i: 1, ready_n: 1, data_i:    25
+On Cycle         100 (RV: 9488f89f) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          26 -- data_o got         69
+
+On Cycle         101 (RV: c8f2ee0a) -- valid_i: 1, ready_n: 0, data_i:    25
+On Cycle         102 (RV: 081f4fb8) -- valid_i: 1, ready_n: 1, data_i:    28
+On Cycle         103 (RV: 2d66ee9c) -- valid_i: 1, ready_n: 0, data_i:    28
+On output iteration          27 -- data_o got         83
+
+On Cycle         104 (RV: 73d540d3) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         105 (RV: e1bcf8b4) -- valid_i: 1, ready_n: 1, data_i:    24
+On Cycle         106 (RV: a779d049) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          28 -- data_o got         98
+
+On Cycle         107 (RV: f83bc383) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         108 (RV: ce3533dc) -- valid_i: 1, ready_n: 0, data_i:    24
+On Cycle         109 (RV: 1b5718e9) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         110 (RV: f4616756) -- valid_i: 1, ready_n: 1, data_i:    15
+On Cycle         111 (RV: 61a7b71f) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          29 -- data_o got        106
+
+On Cycle         112 (RV: a10dcb5f) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         113 (RV: 6b059d65) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         114 (RV: 8855538c) -- valid_i: 1, ready_n: 0, data_i:    15
+On Cycle         115 (RV: 2a2ce2d8) -- valid_i: 1, ready_n: 1, data_i:     9
+On Cycle         116 (RV: b577b3ed) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          30 -- data_o got        104
+
+On Cycle         117 (RV: d9511968) -- valid_i: 1, ready_n: 0, data_i:     9
+On Cycle         118 (RV: 9ae4c419) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         119 (RV: 8d837b3c) -- valid_i: 1, ready_n: 1, data_i:    13
+On Cycle         120 (RV: dc426cc5) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          31 -- data_o got         96
+
+On Cycle         121 (RV: 473cff67) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         122 (RV: f4b60223) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         123 (RV: b87591bf) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         124 (RV: f1931901) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         125 (RV: 86491b84) -- valid_i: 1, ready_n: 0, data_i:    13
+On Cycle         126 (RV: 6e503d43) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         127 (RV: cf6b0993) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         128 (RV: 226f0123) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         129 (RV: 8ccfaa1b) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         130 (RV: feec4747) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         131 (RV: 34956ae8) -- valid_i: 1, ready_n: 1, data_i:    16
+On Cycle         132 (RV: 4a2050a9) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          32 -- data_o got         94
+
+On Cycle         133 (RV: a6cd636a) -- valid_i: 1, ready_n: 0, data_i:    16
+On Cycle         134 (RV: 47060779) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         135 (RV: 5ac7d09a) -- valid_i: 1, ready_n: 1, data_i:    16
+On Cycle         136 (RV: 5d08ba4e) -- valid_i: 1, ready_n: 0, data_i:    16
+On output iteration          33 -- data_o got         95
+
+On Cycle         137 (RV: 65d5e3f3) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         138 (RV: 06a91e2f) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         139 (RV: 027d2929) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         140 (RV: 3d523df1) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         141 (RV: abad2e80) -- valid_i: 1, ready_n: 1, data_i:    10
+On Cycle         142 (RV: dda3fa66) -- valid_i: 1, ready_n: 0, data_i:    10
+On output iteration          34 -- data_o got         96
+
+On Cycle         143 (RV: 41330ea9) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         144 (RV: 8df4b391) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         145 (RV: ee984861) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         146 (RV: 9f83d355) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         147 (RV: a511e1e2) -- valid_i: 1, ready_n: 1, data_i:     0
+On Cycle         148 (RV: 12748c04) -- valid_i: 1, ready_n: 0, data_i:     0
+On output iteration          35 -- data_o got         91
+
+On Cycle         149 (RV: 9117f686) -- valid_i: 1, ready_n: 1, data_i:    18
+On Cycle         150 (RV: d10374ce) -- valid_i: 1, ready_n: 0, data_i:    18
+On output iteration          36 -- data_o got         76
+
+On Cycle         151 (RV: a200c0e7) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         152 (RV: 0bb5a8d1) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         153 (RV: dd78709b) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         154 (RV: aa11824c) -- valid_i: 1, ready_n: 1, data_i:    21
+On Cycle         155 (RV: 4ccdfd7e) -- valid_i: 1, ready_n: 0, data_i:    21
+On output iteration          37 -- data_o got         82
+
+On Cycle         156 (RV: dda8da98) -- valid_i: 1, ready_n: 1, data_i:     2
+On Cycle         157 (RV: db40f46d) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          38 -- data_o got         90
+
+On Cycle         158 (RV: 3d250a31) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         159 (RV: 8c97e584) -- valid_i: 1, ready_n: 0, data_i:     2
+On Cycle         160 (RV: 9698ae20) -- valid_i: 1, ready_n: 1, data_i:    28
+On Cycle         161 (RV: e480b537) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          39 -- data_o got         77
+
+On Cycle         162 (RV: 36c099d1) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         163 (RV: 6aecb90b) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         164 (RV: d7b8ebcf) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         165 (RV: f3f73cd7) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         166 (RV: b9e4f6ac) -- valid_i: 1, ready_n: 0, data_i:    28
+On Cycle         167 (RV: d8feaf20) -- valid_i: 1, ready_n: 1, data_i:    13
+On Cycle         168 (RV: 854bd34d) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          40 -- data_o got         92
+
+On Cycle         169 (RV: 778e7ac8) -- valid_i: 1, ready_n: 0, data_i:    13
+On Cycle         170 (RV: 84763ec2) -- valid_i: 1, ready_n: 1, data_i:    13
+On Cycle         171 (RV: 3272c8dc) -- valid_i: 1, ready_n: 0, data_i:    13
+On output iteration          41 -- data_o got         90
+
+On Cycle         172 (RV: bf7b76ab) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         173 (RV: eb0942ba) -- valid_i: 1, ready_n: 1, data_i:    13
+On Cycle         174 (RV: 3c9e33b4) -- valid_i: 1, ready_n: 0, data_i:    13
+On output iteration          42 -- data_o got         88
+
+On Cycle         175 (RV: 92588dc6) -- valid_i: 1, ready_n: 1, data_i:     4
+On Cycle         176 (RV: 03e1a103) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          43 -- data_o got         87
+
+On Cycle         177 (RV: 86acf514) -- valid_i: 1, ready_n: 0, data_i:     4
+On Cycle         178 (RV: 9f2242de) -- valid_i: 1, ready_n: 1, data_i:    27
+On Cycle         179 (RV: 2801e94e) -- valid_i: 1, ready_n: 0, data_i:    27
+On output iteration          44 -- data_o got         77
+
+On Cycle         180 (RV: 9962f2ab) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         181 (RV: 34009449) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         182 (RV: b8d12416) -- valid_i: 1, ready_n: 1, data_i:    19
+On Cycle         183 (RV: c167722c) -- valid_i: 1, ready_n: 0, data_i:    19
+On output iteration          45 -- data_o got         91
+
+On Cycle         184 (RV: ec1a6991) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         185 (RV: 50b94fc5) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         186 (RV: 2d066f07) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         187 (RV: 6af88e98) -- valid_i: 1, ready_n: 1, data_i:     0
+On Cycle         188 (RV: ae023116) -- valid_i: 1, ready_n: 0, data_i:     0
+On output iteration          46 -- data_o got         95
+
+On Cycle         189 (RV: e4e2a696) -- valid_i: 1, ready_n: 1, data_i:    21
+On Cycle         190 (RV: d1644324) -- valid_i: 1, ready_n: 0, data_i:    21
+On output iteration          47 -- data_o got         80
+
+On Cycle         191 (RV: bf513e80) -- valid_i: 1, ready_n: 1, data_i:    27
+On Cycle         192 (RV: 78d3c7ec) -- valid_i: 1, ready_n: 0, data_i:    27
+On output iteration          48 -- data_o got         88
+
+On Cycle         193 (RV: 665d17fc) -- valid_i: 1, ready_n: 1, data_i:     6
+On Cycle         194 (RV: a9a27449) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          49 -- data_o got        101
+
+On Cycle         195 (RV: f13e3f72) -- valid_i: 1, ready_n: 0, data_i:     6
+On Cycle         196 (RV: 557499c0) -- valid_i: 1, ready_n: 1, data_i:    17
+On Cycle         197 (RV: 66dab2b4) -- valid_i: 1, ready_n: 0, data_i:    17
+On output iteration          50 -- data_o got         91
+
+On Cycle         198 (RV: 3564d93c) -- valid_i: 1, ready_n: 1, data_i:    14
+On Cycle         199 (RV: 66b9b315) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          51 -- data_o got         93
+
+On Cycle         200 (RV: d186281f) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         201 (RV: 10d7a58d) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         202 (RV: 96575ac3) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         203 (RV: b8d35074) -- valid_i: 1, ready_n: 0, data_i:    14
+On Cycle         204 (RV: ee4fa844) -- valid_i: 1, ready_n: 1, data_i:     5
+On Cycle         205 (RV: e1ff6585) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          52 -- data_o got         92
+
+On Cycle         206 (RV: bd57f356) -- valid_i: 1, ready_n: 0, data_i:     5
+On Cycle         207 (RV: f0f29bcb) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         208 (RV: 7b71db91) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         209 (RV: 8d426aea) -- valid_i: 1, ready_n: 1, data_i:    19
+On Cycle         210 (RV: 3b4c9ca4) -- valid_i: 1, ready_n: 0, data_i:    19
+On output iteration          53 -- data_o got         82
+
+On Cycle         211 (RV: 0a846dbb) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         212 (RV: b7ab5197) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         213 (RV: 41334005) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         214 (RV: 0a8b4c41) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         215 (RV: 14b30692) -- valid_i: 1, ready_n: 1, data_i:    17
+On Cycle         216 (RV: c3302cfa) -- valid_i: 1, ready_n: 0, data_i:    17
+On output iteration          54 -- data_o got         88
+
+On Cycle         217 (RV: 80457614) -- valid_i: 1, ready_n: 1, data_i:     0
+On Cycle         218 (RV: 48304871) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          55 -- data_o got         91
+
+On Cycle         219 (RV: f0f927e1) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         220 (RV: d7123190) -- valid_i: 1, ready_n: 0, data_i:     0
+On Cycle         221 (RV: c9c8a4dd) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         222 (RV: 2cb80c5a) -- valid_i: 1, ready_n: 1, data_i:    10
+On Cycle         223 (RV: 1be2eabc) -- valid_i: 1, ready_n: 0, data_i:    10
+On output iteration          56 -- data_o got         76
+
+On Cycle         224 (RV: 6eb5d37f) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         225 (RV: 529a1edf) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         226 (RV: e46fbbc2) -- valid_i: 1, ready_n: 1, data_i:    23
+On Cycle         227 (RV: da2913b2) -- valid_i: 1, ready_n: 0, data_i:    23
+On output iteration          57 -- data_o got         74
+
+On Cycle         228 (RV: 92e252e4) -- valid_i: 1, ready_n: 1, data_i:    17
+On Cycle         229 (RV: 77fc0f08) -- valid_i: 1, ready_n: 0, data_i:    17
+On output iteration          58 -- data_o got         85
+
+On Cycle         230 (RV: f5fd4960) -- valid_i: 1, ready_n: 1, data_i:    24
+On Cycle         231 (RV: 3b6ea67d) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          59 -- data_o got         88
+
+On Cycle         232 (RV: 92d19484) -- valid_i: 1, ready_n: 0, data_i:    24
+On Cycle         233 (RV: dbb226d1) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         234 (RV: c7af3dac) -- valid_i: 1, ready_n: 1, data_i:     2
+On Cycle         235 (RV: c820ae4b) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          60 -- data_o got         98
+
+On Cycle         236 (RV: 1cb0e917) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         237 (RV: db28c984) -- valid_i: 1, ready_n: 0, data_i:     2
+On Cycle         238 (RV: 7c4734e6) -- valid_i: 1, ready_n: 1, data_i:    16
+On Cycle         239 (RV: ee9cf489) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          61 -- data_o got         84
+
+On Cycle         240 (RV: 5ff12679) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         241 (RV: 90945aa9) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         242 (RV: 37f43908) -- valid_i: 1, ready_n: 0, data_i:    16
+On Cycle         243 (RV: e12d3207) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         244 (RV: 2c115356) -- valid_i: 1, ready_n: 1, data_i:    14
+On Cycle         245 (RV: fc1e635b) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          62 -- data_o got         86
+
+On Cycle         246 (RV: be0020d4) -- valid_i: 1, ready_n: 0, data_i:    14
+On Cycle         247 (RV: a26a0b4c) -- valid_i: 1, ready_n: 1, data_i:    10
+On Cycle         248 (RV: c29b6d8f) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          63 -- data_o got         86
+
+On Cycle         249 (RV: 997d21ac) -- valid_i: 1, ready_n: 0, data_i:    10
+On Cycle         250 (RV: bf5f7df0) -- valid_i: 1, ready_n: 1, data_i:    17
+On Cycle         251 (RV: bd988fad) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          64 -- data_o got         82
+
+On Cycle         252 (RV: cfacedee) -- valid_i: 1, ready_n: 0, data_i:    17
+On Cycle         253 (RV: de4bf9cb) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         254 (RV: 2405a738) -- valid_i: 1, ready_n: 1, data_i:     5
+On Cycle         255 (RV: 45a4200c) -- valid_i: 1, ready_n: 0, data_i:     5
+On output iteration          65 -- data_o got         86
+
+On Cycle         256 (RV: 1690130e) -- valid_i: 1, ready_n: 1, data_i:    11
+On Cycle         257 (RV: 1cf113ab) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          66 -- data_o got         77
+
+On Cycle         258 (RV: f63dfa81) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         259 (RV: 3682cd45) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         260 (RV: 95efd2be) -- valid_i: 1, ready_n: 0, data_i:    11
+On Cycle         261 (RV: 868fbc84) -- valid_i: 1, ready_n: 1, data_i:    18
+On Cycle         262 (RV: dfee8162) -- valid_i: 1, ready_n: 0, data_i:    18
+On output iteration          67 -- data_o got         75
+
+On Cycle         263 (RV: 6f7ffdcd) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         264 (RV: a8363ee9) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         265 (RV: 6d1e63b3) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         266 (RV: 2120371f) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         267 (RV: 8cab1422) -- valid_i: 1, ready_n: 1, data_i:     2
+On Cycle         268 (RV: ce786b20) -- valid_i: 1, ready_n: 0, data_i:     2
+On output iteration          68 -- data_o got         81
+
+On Cycle         269 (RV: 04d8cee6) -- valid_i: 1, ready_n: 1, data_i:    13
+On Cycle         270 (RV: 92f7a662) -- valid_i: 1, ready_n: 0, data_i:    13
+On output iteration          69 -- data_o got         70
+
+On Cycle         271 (RV: 1dd508fa) -- valid_i: 1, ready_n: 1, data_i:    23
+On Cycle         272 (RV: 77f93b6e) -- valid_i: 1, ready_n: 0, data_i:    23
+On output iteration          70 -- data_o got         72
+
+On Cycle         273 (RV: c322eca7) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         274 (RV: f696ddde) -- valid_i: 1, ready_n: 1, data_i:     6
+On Cycle         275 (RV: f45a9ed6) -- valid_i: 1, ready_n: 0, data_i:     6
+On output iteration          71 -- data_o got         83
+
+On Cycle         276 (RV: 2591ae85) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         277 (RV: eee647a3) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         278 (RV: 4f9966a5) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         279 (RV: a6a4c65b) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         280 (RV: 56d82ab9) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         281 (RV: 20be9d9c) -- valid_i: 1, ready_n: 1, data_i:    19
+On Cycle         282 (RV: fce79171) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          72 -- data_o got         76
+
+On Cycle         283 (RV: 1d3ed578) -- valid_i: 1, ready_n: 0, data_i:    19
+On Cycle         284 (RV: 4980556e) -- valid_i: 1, ready_n: 1, data_i:    27
+On Cycle         285 (RV: 2a7b1259) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          73 -- data_o got         83
+
+On Cycle         286 (RV: 0db37065) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         287 (RV: 77ed9f71) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         288 (RV: cd6fea65) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         289 (RV: bf75cbda) -- valid_i: 1, ready_n: 0, data_i:    27
+On Cycle         290 (RV: 1780e786) -- valid_i: 1, ready_n: 1, data_i:    13
+On Cycle         291 (RV: c1dbb777) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          74 -- data_o got         97
+
+On Cycle         292 (RV: bfdef958) -- valid_i: 1, ready_n: 0, data_i:    13
+On Cycle         293 (RV: e2053937) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         294 (RV: 39487050) -- valid_i: 1, ready_n: 1, data_i:     0
+On Cycle         295 (RV: 834c91cb) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          75 -- data_o got         94
+
+On Cycle         296 (RV: 12ee7f24) -- valid_i: 1, ready_n: 0, data_i:     0
+On Cycle         297 (RV: a79e486c) -- valid_i: 1, ready_n: 1, data_i:    17
+On Cycle         298 (RV: 562fec0f) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          76 -- data_o got         79
+
+On Cycle         299 (RV: e51a178b) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         300 (RV: 33f7d6ec) -- valid_i: 1, ready_n: 0, data_i:    17
+On Cycle         301 (RV: 893ed7a2) -- valid_i: 1, ready_n: 1, data_i:    10
+On Cycle         302 (RV: ec5b8566) -- valid_i: 1, ready_n: 0, data_i:    10
+On output iteration          77 -- data_o got         83
+
+On Cycle         303 (RV: 2ee18ed9) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         304 (RV: 95a59d5e) -- valid_i: 1, ready_n: 1, data_i:     5
+On Cycle         305 (RV: 78762337) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          78 -- data_o got         80
+
+On Cycle         306 (RV: e135a8db) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         307 (RV: 446b6d7a) -- valid_i: 1, ready_n: 0, data_i:     5
+On Cycle         308 (RV: 2047996c) -- valid_i: 1, ready_n: 1, data_i:    21
+On Cycle         309 (RV: 2651bd55) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          79 -- data_o got         72
+
+On Cycle         310 (RV: 8478f53c) -- valid_i: 1, ready_n: 0, data_i:    21
+On Cycle         311 (RV: 1373075e) -- valid_i: 1, ready_n: 1, data_i:     0
+On Cycle         312 (RV: 5764ab89) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          80 -- data_o got         81
+
+On Cycle         313 (RV: 448b5eda) -- valid_i: 1, ready_n: 0, data_i:     0
+On Cycle         314 (RV: 839f2001) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         315 (RV: 47cbdd63) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         316 (RV: c37ad14e) -- valid_i: 1, ready_n: 1, data_i:    10
+On Cycle         317 (RV: bdbac79b) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          81 -- data_o got         68
+
+On Cycle         318 (RV: 8efb69cc) -- valid_i: 1, ready_n: 0, data_i:    10
+On Cycle         319 (RV: 8ab164da) -- valid_i: 1, ready_n: 1, data_i:    11
+On Cycle         320 (RV: e8b29312) -- valid_i: 1, ready_n: 0, data_i:    11
+On output iteration          82 -- data_o got         67
+
+On Cycle         321 (RV: 13122b1f) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         322 (RV: 2281c690) -- valid_i: 1, ready_n: 1, data_i:    19
+On Cycle         323 (RV: 429f7191) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          83 -- data_o got         67
+
+On Cycle         324 (RV: 0d083132) -- valid_i: 1, ready_n: 0, data_i:    19
+On Cycle         325 (RV: 9baf9594) -- valid_i: 1, ready_n: 1, data_i:     9
+On Cycle         326 (RV: 0b09bdc2) -- valid_i: 1, ready_n: 0, data_i:     9
+On output iteration          84 -- data_o got         75
+
+On Cycle         327 (RV: 5bdf8ec5) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         328 (RV: a129c273) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         329 (RV: 912cfcec) -- valid_i: 1, ready_n: 1, data_i:    25
+On Cycle         330 (RV: 95ab33a8) -- valid_i: 1, ready_n: 0, data_i:    25
+On output iteration          85 -- data_o got         72
+
+On Cycle         331 (RV: 33961a1d) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         332 (RV: 2d746b11) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         333 (RV: 0b7114a9) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         334 (RV: 3f3aecad) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         335 (RV: 291adc03) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         336 (RV: dd4d125c) -- valid_i: 1, ready_n: 1, data_i:    24
+On Cycle         337 (RV: e91aaa08) -- valid_i: 1, ready_n: 0, data_i:    24
+On output iteration          86 -- data_o got         85
+
+On Cycle         338 (RV: 9e59b358) -- valid_i: 1, ready_n: 1, data_i:    12
+On Cycle         339 (RV: 58b4e25e) -- valid_i: 1, ready_n: 0, data_i:    12
+On output iteration          87 -- data_o got         95
+
+On Cycle         340 (RV: 2a7de51a) -- valid_i: 1, ready_n: 1, data_i:    13
+On Cycle         341 (RV: 4100e7f0) -- valid_i: 1, ready_n: 0, data_i:    13
+On output iteration          88 -- data_o got         92
+
+On Cycle         342 (RV: 5d7c0c04) -- valid_i: 1, ready_n: 1, data_i:     8
+On Cycle         343 (RV: 81ebcb27) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          89 -- data_o got         90
+
+On Cycle         344 (RV: 89ff6e8b) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         345 (RV: c2ad3215) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         346 (RV: 108c6fb8) -- valid_i: 1, ready_n: 0, data_i:     8
+On Cycle         347 (RV: f3ce920e) -- valid_i: 1, ready_n: 1, data_i:    18
+On Cycle         348 (RV: 4c80f458) -- valid_i: 1, ready_n: 0, data_i:    18
+On output iteration          90 -- data_o got         83
+
+On Cycle         349 (RV: 7ccd35be) -- valid_i: 1, ready_n: 1, data_i:    20
+On Cycle         350 (RV: d160a909) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          91 -- data_o got         88
+
+On Cycle         351 (RV: b03ca2cd) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         352 (RV: 5fa3c6c0) -- valid_i: 1, ready_n: 0, data_i:    20
+On Cycle         353 (RV: f6adfe46) -- valid_i: 1, ready_n: 1, data_i:    15
+On Cycle         354 (RV: 53544730) -- valid_i: 1, ready_n: 0, data_i:    15
+On output iteration          92 -- data_o got         94
+
+On Cycle         355 (RV: b463369a) -- valid_i: 1, ready_n: 1, data_i:    12
+On Cycle         356 (RV: af4e9187) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          93 -- data_o got         94
+
+On Cycle         357 (RV: 14c4b64a) -- valid_i: 1, ready_n: 0, data_i:    12
+On Cycle         358 (RV: 12fcdfc2) -- valid_i: 1, ready_n: 1, data_i:    11
+On Cycle         359 (RV: 0cc90fcd) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          94 -- data_o got         91
+
+On Cycle         360 (RV: ea557e1f) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         361 (RV: e16176de) -- valid_i: 1, ready_n: 0, data_i:    11
+On Cycle         362 (RV: 6a82bcf2) -- valid_i: 1, ready_n: 1, data_i:    20
+On Cycle         363 (RV: 18e27199) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          95 -- data_o got         87
+
+On Cycle         364 (RV: 2c747488) -- valid_i: 1, ready_n: 0, data_i:    20
+On Cycle         365 (RV: f01ddeff) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         366 (RV: 2e55a0bf) -- valid_i: 0, ready_n: 0, data_i:     0
+On Cycle         367 (RV: ab32dcea) -- valid_i: 1, ready_n: 1, data_i:    19
+On Cycle         368 (RV: 4c8d7b3e) -- valid_i: 1, ready_n: 0, data_i:    19
+On output iteration          96 -- data_o got         93
+
+On Cycle         369 (RV: 18146e3c) -- valid_i: 1, ready_n: 1, data_i:    18
+On Cycle         370 (RV: 0afc3f17) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          97 -- data_o got         97
+
+On Cycle         371 (RV: 66dd3050) -- valid_i: 1, ready_n: 0, data_i:    18
+On Cycle         372 (RV: afd1b78a) -- valid_i: 1, ready_n: 1, data_i:    16
+On Cycle         373 (RV: c9b6ccff) -- valid_i: 0, ready_n: 0, data_i:     0
+On output iteration          98 -- data_o got         99
+
+On Cycle         374 (RV: f3b03adc) -- valid_i: 1, ready_n: 0, data_i:    16
+On Cycle         375 (RV: 185b4028) -- valid_i: 1, ready_n: 1, data_i:     0
+On Cycle         376 (RV: 7f597f8a) -- valid_i: 1, ready_n: 0, data_i:     0
+On output iteration          99 -- data_o got         99
+
+- testbench.sv:168: Verilog $finish
+Simulation time is              3905000
+        100 data transmitted
+[0;32m    ____  ___   __________[0m
+[0;32m   / __ \/   | / ___/ ___/[0m
+[0;32m  / /_/ / /| | \__ \__  [0m
+[0;32m / ____/ ___ |___/ /__/ / [0m
+[0;32m/_/   /_/  |_/____/____/  [0m
+
+Simulation Succeeded!

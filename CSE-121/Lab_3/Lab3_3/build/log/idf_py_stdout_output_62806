@@ -1,0 +1,447 @@
+[0;32mI (123) esp_image: segment 1: paddr=0003c8e0 vaddr=3fc91eESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0xc (SPI_FAST_FLASH_BOOT)
+Saved PC:0x403d04e4
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x1718
+load:0x403cc710,len:0x954
+load:0x403ce710,len:0x2fb4
+entry 0x403cc710
+[0;32mI (24) boot: ESP-IDF v5.2-dev-544-g54576b7528 2nd stage bootloader[0m
+[0;32mI (24) boot: compile time May 15 2023 12:21:03[0m
+[0;32mI (25) boot: chip revision: v0.4[0m
+[0;32mI (29) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (34) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (38) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (43) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (52) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (74) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (82) boot: End of partition table[0m
+[0;32mI (86) esp_image: segment 0: paddr=00010020 vaddr=3c0c0020 size=2c8b8h (182456) map[0m
+[0;32mI (123) esp_image: segment 1: paddr=0003c8e0 vaddr=3fc91e00 size=02884h ( 10372) load[0m
+[0;32mI (125) esp_image: segment 2: paddr=0003f16c vaddr=40380000 size=00each (  3756) load[0m
+[0;32mI (129) esp_image: segment 3: paddr=00040020 vaddr=42000020 size=b4bf0h (740336) map[0m
+[0;32mI (253) esp_image: segment 4: paddr=000f4c18 vaddr=40380eac size=10ee8h ( 69352) load[0m
+[0;32mI (271) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (271) boot: Disabling RNG early entropy source...[0m
+[0;32mI (283) cpu_start: Unicore app[0m
+[0;32mI (283) cpu_start: Pro cpu up.[0m
+[0;32mI (292) cpu_start: Pro cpu start user code[0m
+[0;32mI (292) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (292) cpu_start: Application information:[0m
+[0;32mI (295) cpu_start: Project name:     Lab3_1[0m
+[0;32mI (300) cpu_start: App version:      v5.2-dev-544-g54576b7528[0m
+[0;32mI (306) cpu_start: Compile time:     May 15 2023 12:20:57[0m
+[0;32mI (312) cpu_start: ELF file SHA256:  a6b528d0dea1de41...[0m
+[0;32mI (318) cpu_start: ESP-IDF:          v5.2-dev-544-g54576b7528[0m
+[0;32mI (324) cpu_start: Min chip rev:     v0.3[0m
+[0;32mI (329) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (334) cpu_start: Chip rev:         v0.4[0m
+[0;32mI (339) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (346) heap_init: At 3FC9A3A0 len 00042370 (264 KiB): DRAM[0m
+[0;32mI (352) heap_init: At 3FCDC710 len 00002950 (10 KiB): STACK/DRAM[0m
+[0;32mI (359) heap_init: At 50000020 len 00001FE0 (7 KiB): RTCRAM[0m
+[0;32mI (366) spi_flash: detected chip: generic[0m
+[0;32mI (370) spi_flash: flash io: dio[0m
+[0;33mW (374) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (387) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (394) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (401) coexist: coex firmware version: ebddf30[0m
+[0;32mI (406) coexist: coexist rom version 9387209[0m
+[0;32mI (411) app_start: Starting scheduler on CPU0[0m
+[0;32mI (416) main_task: Started on CPU0[0m
+[0;32mI (416) main_task: Calling app_main()[0m
+[0;32mI (426) BLE_INIT: BT controller compile version [85b425c][0m
+[0;32mI (426) phy_init: phy_version 960,7392adf,Mar 31 2023,16:27:13[0m
+[0;32mI (476) BLE_INIT: Bluetooth MAC: 34:85:18:02:3c:f6
+[0m
+[0;32mI (496) HID_LE_PRF: esp_hidd_prf_cb_hdl(), start added the hid service to the stack database. incl_handle = 40[0m
+[0;32mI (506) HID_LE_PRF: hid svc handle = 2d[0m
+[0;32mI (656) HID_LE_PRF: HID connection establish, conn_id = 0[0m
+[0;32mI (656) HID_DEMO: ESP_HIDD_EVENT_BLE_CONNECT[0m
+[0;32mI (1066) HID_DEMO: remote BD_ADDR: d8f2cac3e852[0m
+[0;32mI (1066) HID_DEMO: address type = 0[0m
+[0;32mI (1066) HID_DEMO: pair status = success[0m
+[0;32mI (1066) main_task: Returned from app_main()[0m
+X: -50, Y: -1, Z: 2048
+X: -51, Y: -1, Z: 4369
+[0;32mI (2076) board_inclination: RIGHT[0m
+X: -50, Y: -1, Z: -247
+X: -1, Y: -57, Z: 2065
+X: -57, Y: -28, Z: 2056
+[0;32mI (2086) board_inclination: ALOT RIGHT[0m
+X: -46, Y: -32, Z: -8178
+X: -48, Y: -27, Z: 2064
+[0;32mI (2086) board_inclination: UP[0m
+X: -46, Y: -11548, Z: 2056
+X: -1, Y: -33, Z: 2054
+[0;32mI (2096) board_inclination: ALOT UP[0m
+X: -50, Y: -12575, Z: 8995
+X: -50, Y: -32, Z: 2061
+X: -45, Y: -27, Z: 2064
+X: -1, Y: -30, Z: 2065
+X: -1, Y: -31, Z: 2060
+X: 216, Y: -29, Z: 2064
+X: -43, Y: -1, Z: 2057
+X: -47, Y: -28, Z: 2062
+X: -47, Y: -36, Z: 2056
+X: -51, Y: -30, Z: 2083
+[0;32mI (2126) board_inclination: ALOT UP[0m
+X: 210, Y: -11551, Z: 2052
+X: -41, Y: -35, Z: 2061
+[0;32mI (2136) board_inclination: ALOT UP[0m
+X: -49, Y: -12337, Z: 2057
+[0;32mI (2146) board_inclination: RIGHT[0m
+X: 0, Y: -28, Z: -7154
+X: -61, Y: -1, Z: 2064
+[0;32mI (2156) board_inclination: ALOT RIGHT[0m
+X: -49, Y: -28, Z: -7146
+X: -52, Y: -31, Z: 2062
+X: -50, Y: -1, Z: 2068
+X: -45, Y: -33, Z: 2321
+[0;32mI (2166) board_inclination: UP[0m
+X: -49, Y: -12337, Z: 2056
+X: -50, Y: -29, Z: 2060
+X: -49, Y: -1, Z: 2064
+[0;32mI (2176) board_inclination: RIGHT[0m
+X: -47, Y: -36, Z: -9200
+X: -53, Y: -30, Z: 2064
+[0;32mI (2186) board_inclination: ALOT RIGHT[0m
+X: -47, Y: -31, Z: -7711
+X: -1, Y: -33, Z: 2058
+X: -49, Y: -30, Z: 2056
+X: -50, Y: -30, Z: 2060
+[0;32mI (3196) board_inclination: ALOT RIGHT[0m
+X: -50, Y: -30, Z: -7668
+X: -49, Y: -31, Z: 2062
+[0;32mI (3206) board_inclination: UP[0m
+X: -46, Y: -11551, Z: 2066
+[0;32mI (3206) board_inclination: RIGHT[0m
+X: -45, Y: -29, Z: -7197
+[0;32mI (3206) board_inclination: UP RIGHT[0m
+X: -51, Y: -12828, Z: -7151
+X: -46, Y: -34, Z: 2058
+X: -1, Y: -30, Z: 2064
+X: 0, Y: -65, Z: 2067
+X: 210, Y: -32, Z: 2057
+X: -44, Y: -33, Z: 2066
+X: -1, Y: -33, Z: 2056
+X: -50, Y: -35, Z: 2068
+X: -1, Y: -36, Z: 2066
+[0;32mI (3236) board_inclination: RIGHT[0m
+X: -1, Y: -1, Z: -239
+[0;32mI (4236) board_inclination: UP RIGHT[0m
+X: -49, Y: -12319, Z: -7929
+X: -46, Y: -33, Z: 2056
+[0;32mI (4236) board_inclination: RIGHT[0m
+X: -1, Y: -33, Z: -8437
+X: -48, Y: -31, Z: 2064
+X: -48, Y: -1, Z: 2065
+[0;32mI (4256) board_inclination: UP RIGHT[0m
+X: -53, Y: -13338, Z: -6642
+X: -49, Y: -1, Z: 2056
+[0;32mI (4256) board_inclination: UP[0m
+X: -103, Y: -26215, Z: 2061
+X: 204, Y: -35, Z: 2056
+X: 207, Y: -32, Z: 2079
+[0;32mI (4266) board_inclination: RIGHT[0m
+X: 210, Y: -31, Z: -7923
+X: -51, Y: -32, Z: 2061
+[0;32mI (4276) board_inclination: UP[0m
+X: -49, Y: -12318, Z: 2062
+X: -51, Y: -1, Z: 2066
+[0;32mI (4286) board_inclination: ALOT UP[0m
+X: 199, Y: -14393, Z: 2065
+[0;32mI (4286) board_inclination: RIGHT[0m
+X: -51, Y: -1, Z: -246
+[0;32mI (5296) board_inclination: ALOT RIGHT[0m
+X: -239, Y: -31, Z: 1799
+[0;32mI (5296) board_inclination: ALOT RIGHT[0m
+X: 7, Y: -1, Z: 1898
+[0;32mI (5306) board_inclination: LEFT[0m
+X: 789, Y: -37, Z: 1799
+[0;32mI (5306) board_inclination: RIGHT[0m
+X: 12, Y: -30, Z: 1883
+[0;32mI (5316) board_inclination: LEFT[0m
+X: 771, Y: -1, Z: 1878
+[0;32mI (5316) board_inclination: ALOT LEFT[0m
+X: 793, Y: -33, Z: 1799
+[0;32mI (5326) board_inclination: ALOT LEFT[0m
+X: 771, Y: -32, Z: -8105
+[0;32mI (5336) board_inclination: ALOT LEFT[0m
+X: 773, Y: -36, Z: -9098
+[0;32mI (5336) board_inclination: ALOT LEFT[0m
+X: 761, Y: -31, Z: 1922
+[0;32mI (5346) board_inclination: ALOT LEFT[0m
+X: 752, Y: -1, Z: 1921
+[0;32mI (5356) board_inclination: ALOT LEFT[0m
+X: 761, Y: -34, Z: 1913
+[0;32mI (5356) board_inclination: ALOT LEFT[0m
+X: 1285, Y: -34, Z: 1908
+[0;32mI (5366) board_inclination: ALOT LEFT[0m
+X: 771, Y: -35, Z: 1907
+[0;32mI (5376) board_inclination: ALOT LEFT[0m
+X: 514, Y: -30, Z: 1915
+[0;32mI (5376) board_inclination: ALOT LEFT[0m
+X: 751, Y: -31, Z: 1927
+[0;32mI (5386) board_inclination: UP LEFT[0m
+X: 749, Y: -4627, Z: 8073
+[0;32mI (5386) board_inclination: LEFT[0m
+X: 1522, Y: -32, Z: 1924
+[0;32mI (5396) board_inclination: DOWN LEFT[0m
+X: 775, Y: 2011, Z: 1909
+[0;32mI (5406) board_inclination: LEFT[0m
+X: 781, Y: -31, Z: 1901
+[0;32mI (5406) board_inclination: ALOT LEFT[0m
+X: 772, Y: -33, Z: 1908
+[0;32mI (5416) board_inclination: ALOT LEFT[0m
+X: 754, Y: -33, Z: 1925
+[0;32mI (6426) board_inclination: ALOT LEFT[0m
+X: 744, Y: -35, Z: 1799
+[0;32mI (6426) board_inclination: RIGHT[0m
+X: 0, Y: 94, Z: 1799
+[0;32mI (6426) board_inclination: UP[0m
+X: -51, Y: -427, Z: 2022
+[0;32mI (7436) board_inclination: UP RIGHT[0m
+X: 194, Y: -258, Z: -344
+X: -1, Y: -87, Z: 1963
+[0;32mI (7436) board_inclination: ALOT UP RIGHT[0m
+X: -50, Y: -598, Z: -21842
+[0;32mI (7446) board_inclination: UP[0m
+X: -39, Y: -593, Z: 1973
+X: -1, Y: -1, Z: 1969
+[0;32mI (8446) board_inclination: UP RIGHT[0m
+X: -1, Y: -515, Z: -606
+[0;32mI (8446) board_inclination: ALOT UP RIGHT[0m
+X: -1, Y: -591, Z: 1799
+[0;32mI (8456) board_inclination: ALOT UP RIGHT[0m
+X: -48, Y: -12113, Z: 1942
+[0;32mI (8456) board_inclination: ALOT UP RIGHT[0m
+X: -51, Y: -12879, Z: -20060
+[0;32mI (8466) board_inclination: UP[0m
+X: -56, Y: -14150, Z: 1978
+[0;32mI (8466) board_inclination: ALOT UP[0m
+X: 195, Y: -573, Z: 1991
+[0;32mI (9476) board_inclination: UP RIGHT[0m
+X: -66, Y: -572, Z: 1799
+[0;32mI (9476) board_inclination: RIGHT[0m
+X: 193, Y: -77, Z: -19614
+[0;32mI (9486) board_inclination: ALOT RIGHT[0m
+X: -821, Y: -1, Z: -141
+[0;32mI (10486) board_inclination: UP RIGHT[0m
+X: -820, Y: -13094, Z: -9699
+[0;32mI (10486) board_inclination: RIGHT[0m
+X: -997, Y: -30, Z: 1827
+[0;32mI (10496) board_inclination: ALOT RIGHT[0m
+X: -999, Y: -36, Z: 1819
+[0;32mI (10496) board_inclination: DOWN RIGHT[0m
+X: -1007, Y: 4575, Z: 1817
+[0;32mI (10506) board_inclination: RIGHT[0m
+X: -1004, Y: -1, Z: -245
+[0;32mI (10506) board_inclination: ALOT RIGHT[0m
+X: -1021, Y: -29, Z: 1789
+[0;32mI (10516) board_inclination: ALOT RIGHT[0m
+X: -1032, Y: -31, Z: 1778
+[0;32mI (10526) board_inclination: ALOT RIGHT[0m
+X: -1030, Y: -29, Z: 1542
+[0;32mI (12526) board_inclination: DOWN RIGHT[0m
+X: -1021, Y: 771, Z: 950
+[0;32mI (12526) board_inclination: RIGHT[0m
+X: -1129, Y: -21, Z: 1702
+[0;32mI (12536) board_inclination: ALOT RIGHT[0m
+X: 0, Y: -17, Z: 1694
+[0;32mI (12536) board_inclination: UP[0m
+X: -1145, Y: -30765, Z: 3465
+[0;32mI (12546) board_inclination: RIGHT[0m
+X: -1162, Y: -20, Z: 1542
+[0;32mI (12546) board_inclination: ALOT RIGHT[0m
+X: -1158, Y: -1, Z: -1
+[0;32mI (12556) board_inclination: UP RIGHT[0m
+X: -126, Y: -32028, Z: 1687
+[0;32mI (12566) board_inclination: RIGHT[0m
+X: -1139, Y: -1, Z: 1708
+[0;32mI (12566) board_inclination: UP RIGHT[0m
+X: -1117, Y: -23578, Z: 771
+[0;32mI (12576) board_inclination: RIGHT[0m
+X: -1110, Y: -23, Z: 1733
+[0;32mI (13576) board_inclination: ALOT RIGHT[0m
+X: 168, Y: -17, Z: 1741
+[0;32mI (14576) board_inclination: UP[0m
+X: -1110, Y: -21782, Z: 3575
+X: -1120, Y: -24, Z: 2530
+[0;32mI (15576) board_inclination: UP RIGHT[0m
+X: -1029, Y: -1048, Z: -5912
+[0;32mI (15576) board_inclination: RIGHT[0m
+X: -1186, Y: -28, Z: 1687
+[0;32mI (16576) board_inclination: ALOT RIGHT[0m
+X: -1029, Y: -20, Z: -4975
+[0;32mI (16576) board_inclination: ALOT RIGHT[0m
+X: -176, Y: -1, Z: 1679
+[0;32mI (17576) board_inclination: ALOT RIGHT[0m
+X: -1029, Y: -1, Z: -154
+[0;32mI (18576) board_inclination: ALOT RIGHT[0m
+X: -1029, Y: -1, Z: 1624
+[0;32mI (18576) board_inclination: DOWN RIGHT[0m
+X: -1265, Y: 4074, Z: -5398
+[0;32mI (18586) board_inclination: RIGHT[0m
+X: -1, Y: -23, Z: 1634
+[0;32mI (18586) board_inclination: ALOT RIGHT[0m
+X: 16, Y: -1, Z: 1542
+[0;32mI (18596) board_inclination: ALOT RIGHT[0m
+X: -1246, Y: -20, Z: 1646
+[0;32mI (18596) board_inclination: ALOT RIGHT[0m
+X: -1251, Y: -22, Z: -5515
+[0;32mI (18606) board_inclination: DOWN RIGHT[0m
+X: -1248, Y: 8427, Z: 1654
+[0;32mI (18616) board_inclination: RIGHT[0m
+X: -1238, Y: -22, Z: 1669
+[0;32mI (18616) board_inclination: ALOT RIGHT[0m
+X: -1239, Y: -1, Z: 1662
+[0;32mI (18626) board_inclination: ALOT RIGHT[0m
+X: -1257, Y: -24, Z: 1643
+X: -1263, Y: -23, Z: 6996
+[0;32mI (19636) board_inclination: LEFT[0m
+X: 21586, Y: -24, Z: -5994
+[0;32mI (19636) board_inclination: RIGHT[0m
+X: -179, Y: -1, Z: 1677
+[0;32mI (19646) board_inclination: ALOT RIGHT[0m
+X: 73, Y: -24, Z: 1542
+[0;32mI (19646) board_inclination: ALOT RIGHT[0m
+X: -1212, Y: -1, Z: 1542
+[0;32mI (19656) board_inclination: DOWN RIGHT[0m
+X: -1213, Y: 17389, Z: 1671
+[0;32mI (19656) board_inclination: RIGHT[0m
+X: -1205, Y: -1, Z: 1677
+[0;32mI (19666) board_inclination: ALOT RIGHT[0m
+X: -1029, Y: -25, Z: -6248
+[0;32mI (20666) board_inclination: ALOT RIGHT[0m
+X: -1, Y: -30, Z: -7669
+X: -1, Y: -1, Z: 2053
+X: -48, Y: -1, Z: 2063
+X: -36, Y: -33, Z: 2040
+X: -26, Y: -1, Z: 1991
+[0;32mI (21676) board_inclination: UP[0m
+X: -90, Y: -478, Z: 1987
+[0;32mI (21676) board_inclination: ALOT UP[0m
+X: -80, Y: -487, Z: 6599
+[0;32mI (22686) board_inclination: ALOT UP[0m
+X: 189, Y: -496, Z: 4112
+[0;32mI (22686) board_inclination: ALOT UP[0m
+X: -67, Y: -465, Z: 1989
+[0;32mI (22686) board_inclination: ALOT UP[0m
+X: -81, Y: -20561, Z: 1994
+[0;32mI (22696) board_inclination: UP RIGHT[0m
+X: -81, Y: -463, Z: 1799
+[0;32mI (22706) board_inclination: UP[0m
+X: 165, Y: -467, Z: 2007
+[0;32mI (23706) board_inclination: ALOT UP[0m
+X: -96, Y: -467, Z: 11747
+[0;32mI (23706) board_inclination: ALOT UP[0m
+X: 192, Y: -437, Z: 19440
+[0;32mI (23716) board_inclination: ALOT UP[0m
+X: -72, Y: -408, Z: 2040
+[0;32mI (23716) board_inclination: UP RIGHT[0m
+X: -76, Y: -408, Z: 1799
+X: -1, Y: -34, Z: 2107
+[0;32mI (24716) board_inclination: RIGHT[0m
+X: -1, Y: -32, Z: -8184
+[0;32mI (24726) board_inclination: UP[0m
+X: -51, Y: -12834, Z: 2057
+X: -1, Y: -33, Z: 2063
+[0;32mI (24726) board_inclination: RIGHT[0m
+X: -48, Y: -35, Z: -8885
+X: -1, Y: -29, Z: 2068
+X: -52, Y: -30, Z: 2062
+[0;32mI (25736) board_inclination: ALOT RIGHT[0m
+X: 206, Y: -1, Z: -17
+X: -160, Y: -38, Z: 2037
+[0;32mI (26736) board_inclination: DOWN[0m
+X: 83, Y: 21472, Z: 2059
+[0;32mI (26736) board_inclination: ALOT DOWN[0m
+X: 78, Y: 20046, Z: 2056
+[0;32mI (26746) board_inclination: RIGHT[0m
+X: 77, Y: -37, Z: -9463
+[0;32mI (27746) board_inclination: ALOT RIGHT[0m
+X: -1, Y: -31, Z: -7928
+X: 124, Y: -31, Z: 2061
+X: 125, Y: -27, Z: 2065
+X: 122, Y: -26, Z: 2065
+[0;32mI (27756) board_inclination: DOWN[0m
+X: 123, Y: 31717, Z: 2083
+X: 114, Y: -25, Z: 2059
+[0;32mI (28766) board_inclination: ALOT DOWN[0m
+X: 121, Y: 31097, Z: 31231
+X: 175, Y: -33, Z: 2030
+X: 0, Y: -29, Z: 2026
+[0;32mI (28776) board_inclination: UP[0m
+X: 182, Y: -18724, Z: 2022
+X: 131, Y: -32, Z: 2002
+[0;32mI (29776) board_inclination: RIGHT[0m
+X: 257, Y: -33, Z: 1799
+[0;32mI (29786) board_inclination: DOWN[0m
+X: 257, Y: 481, Z: 2034
+[0;32mI (29786) board_inclination: LEFT[0m
+X: 1871, Y: -35, Z: -8739
+X: -190, Y: -32, Z: 2064
+X: 315, Y: -34, Z: 4376
+X: 0, Y: -32, Z: 2073
+X: 305, Y: -34, Z: 2082
+X: 304, Y: -35, Z: 2078
+X: 303, Y: -33, Z: 2070
+[0;32mI (29806) board_inclination: DOWN[0m
+X: 308, Y: 13364, Z: 2079
+X: 68, Y: -31, Z: 2300
+X: 81, Y: -35, Z: 2044
+[0;32mI (29816) board_inclination: RIGHT[0m
+X: 342, Y: -1, Z: -19
+X: 354, Y: -32, Z: 2017
+X: 257, Y: -33, Z: 2019
+[0;32mI (29826) board_inclination: ALOT RIGHT[0m
+X: 356, Y: -1, Z: -34
+X: 257, Y: -31, Z: 2009
+[0;32mI (29836) board_inclination: ALOT RIGHT[0m
+X: 370, Y: -31, Z: -7731
+[0;32mI (29846) board_inclination: ALOT RIGHT[0m
+X: 257, Y: -1, Z: -51
+[0;32mI (29846) board_inclination: ALOT RIGHT[0m
+X: -124, Y: -30, Z: -7483
+X: 387, Y: -27, Z: 1987
+X: 206, Y: -33, Z: 2056
+X: -53, Y: -1, Z: 2055
+[0;32mI (30856) board_inclination: UP[0m
+X: -51, Y: -12830, Z: 2059
+X: -45, Y: -1, Z: 2063
+[0;32mI (30866) board_inclination: ALOT UP[0m
+X: 206, Y: -12578, Z: 2059
+X: -49, Y: -37, Z: 2056
+X: -49, Y: -1, Z: 2060
+[0;32mI (30876) board_inclination: RIGHT[0m
+X: -49, Y: -36, Z: -9209
+X: -49, Y: -31, Z: 2061
+[0;32mI (30886) board_inclination: UP[0m
+X: -48, Y: -12064, Z: 2056
+X: -53, Y: -31, Z: 2056
+X: 208, Y: -33, Z: 2062
+[0;32mI (30896) board_inclination: ALOT UP[0m
+X: -52, Y: -13089, Z: 2061
+[0;32mI (30896) board_inclination: RIGHT[0m
+X: -1, Y: -31, Z: -7924
+X: -45, Y: -31, Z: 2064
+[0;32mI (31906) board_inclination: UP RIGHT[0m
+X: -52, Y: -13088, Z: -8177
+[0;32mI (31906) board_inclination: RIGHT[0m
+X: -48, Y: -35, Z: -8941
+X: -53, Y: -33, Z: 2058
+X: -45, Y: -29, Z: 2059
+X: 204, Y: -29, Z: 2056
+X: -52, Y: -1, Z: 2061
+X: -48, Y: -33, Z: 2063
+X: -1, Y: -34, Z: 2065
+[0;32mI (31926) board_inclination: ALOT RIGHT[0m
+X: -1, Y: -34, Z: -8692
+[0;32mI (32936) board_inclination: ALOT RIGHT[0m
+X: -48, Y: -1, Z: -242

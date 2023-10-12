@@ -1,0 +1,123 @@
+[0;32mI (127) esp_image: segment 1: paddr=000437f8 vaddr=3fc904ESP-ROM:esp32c3-api1-20210207
+Build:Feb  7 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0xc (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40058866
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fcd5820,len:0x1718
+load:0x403cc710,len:0x954
+load:0x403ce710,len:0x2fb4
+entry 0x403cc710
+[0;32mI (24) boot: ESP-IDF v5.2-dev-544-g54576b7528 2nd stage bootloader[0m
+[0;32mI (24) boot: compile time Jun  8 2023 17:49:21[0m
+[0;32mI (25) boot: chip revision: v0.4[0m
+[0;32mI (29) boot.esp32c3: SPI Speed      : 80MHz[0m
+[0;32mI (34) boot.esp32c3: SPI Mode       : DIO[0m
+[0;32mI (38) boot.esp32c3: SPI Flash Size : 2MB[0m
+[0;32mI (43) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (52) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (67) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (74) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (82) boot: End of partition table[0m
+[0;32mI (86) esp_image: segment 0: paddr=00010020 vaddr=3c0a0020 size=337d0h (210896) map[0m
+[0;32mI (127) esp_image: segment 1: paddr=000437f8 vaddr=3fc90400 size=02884h ( 10372) load[0m
+[0;32mI (130) esp_image: segment 2: paddr=00046084 vaddr=40380000 size=09f94h ( 40852) load[0m
+[0;32mI (141) esp_image: segment 3: paddr=00050020 vaddr=42000020 size=9fab4h (654004) map[0m
+[0;32mI (244) esp_image: segment 4: paddr=000efadc vaddr=40389f94 size=06458h ( 25688) load[0m
+[0;32mI (254) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (254) boot: Disabling RNG early entropy source...[0m
+[0;32mI (265) cpu_start: Unicore app[0m
+[0;32mI (266) cpu_start: Pro cpu up.[0m
+[0;32mI (274) cpu_start: Pro cpu start user code[0m
+[0;32mI (274) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (274) cpu_start: Application information:[0m
+[0;32mI (277) cpu_start: Project name:     wifi_station[0m
+[0;32mI (283) cpu_start: App version:      v5.2-dev-544-g54576b7528[0m
+[0;32mI (289) cpu_start: Compile time:     Jun  8 2023 17:49:11[0m
+[0;32mI (295) cpu_start: ELF file SHA256:  e38b133b78d2f33b...[0m
+[0;32mI (301) cpu_start: ESP-IDF:          v5.2-dev-544-g54576b7528[0m
+[0;32mI (307) cpu_start: Min chip rev:     v0.3[0m
+[0;32mI (312) cpu_start: Max chip rev:     v0.99 [0m
+[0;32mI (317) cpu_start: Chip rev:         v0.4[0m
+[0;32mI (322) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (329) heap_init: At 3FC973E0 len 00045330 (276 KiB): DRAM[0m
+[0;32mI (335) heap_init: At 3FCDC710 len 00002950 (10 KiB): STACK/DRAM[0m
+[0;32mI (342) heap_init: At 50000020 len 00001FE0 (7 KiB): RTCRAM[0m
+[0;32mI (349) spi_flash: detected chip: generic[0m
+[0;32mI (353) spi_flash: flash io: dio[0m
+[0;33mW (357) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (370) sleep: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (377) sleep: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (384) app_start: Starting scheduler on CPU0[0m
+[0;32mI (389) main_task: Started on CPU0[0m
+[0;32mI (389) main_task: Calling app_main()[0m
+[0;32mI (399) wifi station: ESP_WIFI_MODE_STA[0m
+[0;32mI (399) pp: pp rom version: 9387209[0m
+[0;32mI (399) net80211: net80211 rom version: 9387209[0m
+I (419) wifi:wifi driver task: 3fca0288, prio:23, stack:6656, core=0
+I (419) wifi:wifi firmware version: c08166b
+I (419) wifi:wifi certification version: v7.0
+I (419) wifi:config NVS flash: enabled
+I (419) wifi:config nano formating: disabled
+I (429) wifi:Init data frame dynamic rx buffer num: 32
+I (429) wifi:Init management frame dynamic rx buffer num: 32
+I (439) wifi:Init management short buffer num: 32
+I (439) wifi:Init dynamic tx buffer num: 32
+I (449) wifi:Init static tx FG buffer num: 2
+I (449) wifi:Init static rx buffer size: 1600
+I (459) wifi:Init static rx buffer num: 10
+I (459) wifi:Init dynamic rx buffer num: 32
+[0;32mI (459) wifi_init: rx ba win: 6[0m
+[0;32mI (469) wifi_init: tcpip mbox: 32[0m
+[0;32mI (469) wifi_init: udp mbox: 6[0m
+[0;32mI (469) wifi_init: tcp mbox: 6[0m
+[0;32mI (479) wifi_init: tcp tx win: 5744[0m
+[0;32mI (479) wifi_init: tcp rx win: 5744[0m
+[0;32mI (489) wifi_init: tcp mss: 1440[0m
+[0;32mI (489) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (499) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (499) phy_init: phy_version 960,7392adf,Mar 31 2023,16:27:13[0m
+I (539) wifi:mode : sta (34:85:18:02:3c:f4)
+I (539) wifi:enable tsf
+[0;32mI (539) wifi station: wifi_init_sta finished.[0m
+I (1269) wifi:new:<6,0>, old:<1,0>, ap:<255,255>, sta:<6,0>, prof:1
+I (1269) wifi:state: init -> auth (b0)
+I (1279) wifi:state: auth -> assoc (0)
+I (1289) wifi:state: assoc -> run (10)
+I (1319) wifi:connected with Ligma, aid = 1, channel 6, BW20, bssid = a4:50:46:c4:dd:e3
+I (1319) wifi:security: WPA2-PSK, phy: bgn, rssi: -33
+I (1329) wifi:pm start, type: 1
+
+I (1329) wifi:set rx beacon pti, rx_bcn_pti: 0, bcn_timeout: 25000, mt_pti: 0, mt_time: 10000
+I (1409) wifi:AP's beacon interval = 102400 us, DTIM period = 2
+I (4399) wifi:<ba-add>idx:0 (ifx:0, a4:50:46:c4:dd:e3), tid:0, ssn:0, winSize:64
+[0;32mI (5329) esp_netif_handlers: sta ip: 192.168.43.119, mask: 255.255.255.0, gw: 192.168.43.83[0m
+[0;32mI (5329) wifi station: got ip:192.168.43.119[0m
+[0;32mI (5329) wifi station: connected to ap SSID:Ligma password:brian123[0m
+[0;32mI (5339) wifi station: Start https_request example[0m
+[0;32mI (5339) wifi station: https_request using crt bundle[0m
+[0;32mI (5349) main_task: Returned from app_main()[0m
+[0;32mI (6449) esp-x509-crt-bundle: Certificate validated[0m
+[0;32mI (7659) wifi station: Connection established...[0m
+[0;32mI (7669) wifi station: 108 bytes written[0m
+[0;32mI (7669) wifi station: Reading HTTP response...[0m
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Content-Length: 27
+Content-Type: text/plain; charset=utf-8
+Date: Fri, 09 Jun 2023 01:27:26 GMT
+
+Santa+Cruz: ☀️   +68°F
+[0;32mI (9099) wifi station: connection closed[0m
+[0;32mI (9099) wifi station: 10...[0m
+[0;32mI (10099) wifi station: 9...[0m
+[0;32mI (11099) wifi station: 8...[0m
+[0;32mI (12099) wifi station: 7...[0m
+[0;32mI (13099) wifi station: 6...[0m
+[0;32mI (14099) wifi station: 5...[0m
+[0;32mI (15099) wifi station: 4...[0m
+[0;32mI (16099) wifi station: 3...[0m
+[0;32mI (17099) wifi station: 2...[0m
+[0;32mI (18099) wifi station: 1...[0m

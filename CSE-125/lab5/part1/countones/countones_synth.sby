@@ -1,0 +1,14 @@
+[options]
+mode bmc
+depth 10
+expect fail
+
+[engines]
+smtbmc yices
+
+[script]
+read -formal countones.sv
+prep -top countones_synth
+
+[files]
+countones.sv

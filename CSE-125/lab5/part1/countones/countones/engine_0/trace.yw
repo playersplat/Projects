@@ -1,0 +1,12 @@
+{
+  "format": "Yosys Witness Trace",
+  "generator": "smtbmc",
+  "clocks": [],
+  "signals": [
+    {"path": ["\\_witness_", "\\anyseq_auto_setundef_cc_525_execute_94"], "width": 1, "offset": 0, "init_only": false},
+    {"path": ["\\binary_i"], "width": 8, "offset": 0, "init_only": false}
+  ],
+  "steps": [
+    {"bits": "000000010"}
+  ]
+}

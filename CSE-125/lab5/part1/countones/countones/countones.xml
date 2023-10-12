@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+<testsuite timestamp="2023-02-24T06:06:31" hostname="CSE-x25-VBox-VM" package="countones" id="0" name="default" tests="2" errors="0" failures="1" time="0" skipped="1">
+<properties>
+<property name="os" value="Linux"/>
+<property name="expect" value="FAIL"/>
+<property name="status" value="FAIL"/>
+</properties>
+<testcase classname="default" name="build execution" time="0">
+</testcase>
+<testcase classname="default" name="Property ASSERT in countones at countones.sv:20.28-37.51" time="0" type="ASSERT" location="countones.sv:20.28-37.51" id="$assert$countones.sv:20$46">
+<skipped />
+</testcase>
+<testcase classname="default" name="Property ASSERT in countones at countones.sv:37.52-38.68" time="0" type="ASSERT" location="countones.sv:37.52-38.68" id="$assert$countones.sv:37$81" tracefile="engine_0/trace.vcd">
+<failure type="ASSERT" message="Property ASSERT in countones at countones.sv:37.52-38.68 failed. Trace file: engine_0/trace.vcd" />
+</testcase>
+<system-out>SBY  6:06:30 [countones] Removing directory '/home/vboxuser/cse-x25-wi23/lab5/part1/countones/countones'.
+SBY  6:06:30 [countones] Copy '/home/vboxuser/cse-x25-wi23/lab5/part1/countones/countones.sv' to '/home/vboxuser/cse-x25-wi23/lab5/part1/countones/countones/src/countones.sv'.
+SBY  6:06:30 [countones] engine_0: smtbmc yices
+SBY  6:06:30 [countones] base: starting process &quot;cd countones/src; yosys -ql ../model/design.log ../model/design.ys&quot;
+SBY  6:06:30 [countones] base: finished (returncode=0)
+SBY  6:06:30 [countones] prep: starting process &quot;cd countones/model; yosys -ql design_prep.log design_prep.ys&quot;
+SBY  6:06:30 [countones] prep: finished (returncode=0)
+SBY  6:06:30 [countones] smt2: starting process &quot;cd countones/model; yosys -ql design_smt2.log design_smt2.ys&quot;
+SBY  6:06:30 [countones] smt2: finished (returncode=0)
+SBY  6:06:30 [countones] engine_0: starting process &quot;cd countones; yosys-smtbmc -s yices --presat --unroll --noprogress -t 10  --append 0 --dump-vcd engine_0/trace.vcd --dump-yw engine_0/trace.yw --dump-vlogtb engine_0/trace_tb.v --dump-smtc engine_0/trace.smtc model/design_smt2.smt2&quot;
+SBY  6:06:31 [countones] engine_0: ##   0:00:00  Solver: yices
+SBY  6:06:31 [countones] engine_0: ##   0:00:00  Checking assumptions in step 0..
+SBY  6:06:31 [countones] engine_0: ##   0:00:00  Checking assertions in step 0..
+SBY  6:06:31 [countones] engine_0: ##   0:00:00  BMC failed!
+SBY  6:06:31 [countones] engine_0: ##   0:00:00  Assert failed in countones: countones.sv:37.52-38.68 ($assert$countones.sv:37$81)
+SBY  6:06:31 [countones] engine_0: ##   0:00:00  Writing trace to VCD file: engine_0/trace.vcd
+SBY  6:06:31 [countones] engine_0: ##   0:00:00  Writing trace to Verilog testbench: engine_0/trace_tb.v
+SBY  6:06:31 [countones] engine_0: ##   0:00:00  Writing trace to constraints file: engine_0/trace.smtc
+SBY  6:06:31 [countones] engine_0: ##   0:00:00  Writing trace to Yosys witness file: engine_0/trace.yw
+SBY  6:06:31 [countones] engine_0: ##   0:00:00  Status: failed
+SBY  6:06:31 [countones] engine_0: finished (returncode=1)
+SBY  6:06:31 [countones] engine_0: Status returned by engine: FAIL
+SBY  6:06:31 [countones] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:06:31 [countones] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:00 (0)
+SBY  6:06:31 [countones] summary: engine_0 (smtbmc yices) returned FAIL
+SBY  6:06:31 [countones] summary: counterexample trace: countones/engine_0/trace.vcd
+SBY  6:06:31 [countones] DONE (FAIL, rc=0)
+</system-out>
+<system-err>
+</system-err>
+</testsuite>
+</testsuites>

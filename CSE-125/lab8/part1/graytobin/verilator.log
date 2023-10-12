@@ -1,0 +1,28 @@
+TOP.testbench.cg with cycle_time_p          10
+Begin Test:
+
+gray_i:0000, binary_o:0000, correct_o:0000
+gray_i:0001, binary_o:0000, correct_o:0000
+gray_i:0010, binary_o:0001, correct_o:0001
+gray_i:0011, binary_o:0011, correct_o:0011
+gray_i:0100, binary_o:0010, correct_o:0010
+gray_i:0101, binary_o:0111, correct_o:0111
+gray_i:0110, binary_o:0110, correct_o:0110
+gray_i:0111, binary_o:0100, correct_o:0100
+gray_i:1000, binary_o:0101, correct_o:0101
+gray_i:1001, binary_o:1111, correct_o:1111
+gray_i:1010, binary_o:1110, correct_o:1110
+gray_i:1011, binary_o:1100, correct_o:1100
+gray_i:1100, binary_o:1101, correct_o:1101
+gray_i:1101, binary_o:1000, correct_o:1000
+gray_i:1110, binary_o:1001, correct_o:1001
+gray_i:1111, binary_o:1011, correct_o:1011
+- testbench.sv:66: Verilog $finish
+Simulation time is               180000
+[0;32m    ____  ___   __________[0m
+[0;32m   / __ \/   | / ___/ ___/[0m
+[0;32m  / /_/ / /| | \__ \__  [0m
+[0;32m / ____/ ___ |___/ /__/ / [0m
+[0;32m/_/   /_/  |_/____/____/  [0m
+
+Simulation Succeeded!
