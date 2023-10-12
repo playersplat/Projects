@@ -1,0 +1,13 @@
+VCD info: dumpfile iverilog.vcd opened for output.
+VCD warning: $dumpvars: Unsupported argument type (vpiPackage)
+
+   / / / /__  / / /___     | |     / /___  _____/ /___/ /
+  / /_/ / _ \/ / / __ \    | | /| / / __ \/ ___/ / __  / 
+ / __  /  __/ / / /_/ /    | |/ |/ / /_/ / /  / / /_/ /  
+/_/ /_/\___/_/_/\____/     |__/|__/\____/_/  /_/\__,_/   
+
+Simulation time is                10000
+
+Icarus Verilog Simulation Succeeded!
+
+Current System Time is: 05:54:59 PM--01/23/2023

@@ -1,0 +1,27 @@
+/********************************************************************************
+ * Brian Bui, bbui3
+ * 2021 Spring CSE 101 pa2
+ * README.txt
+ * README for Graph ADT, FindPath, GraphTest
+ * Programming Assignment: PA1
+ *********************************************************************************/
+Files:
+List.h
+	Main header file for List ADT
+List.c
+	Main source file for List ADT, has all required functions for List ADT
+Graph.h
+	Main header file for Graph ADT
+Graph.c
+	Main source file for Graph ADT, has all required functions for Graph ADT
+GraphTest.c
+	Tester file for Graph ADT, tests all functions from Graph.c
+FindPath.c
+	Main source file for Breadth First Search and Shortest Paths, reads an input file, stores the graph, prints out its adjacency list, and finds the shortest path
+
+Makefile
+	Makefile for List.h List.c Graph.h Graph.c FindPath.c
+README
+	T.O.C and is this file
+Special Notes:
+	L:

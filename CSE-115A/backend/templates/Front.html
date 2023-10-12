@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.4/dist/css/foundation.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.min.css" />
+    <!-- Compressed JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/jquery.min.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.1/dist/js/foundation.min.js">
+    </script>
+    <link rel="stylesheet" href="/static/style.css">
+    <!--ADD /static/ for style.css ^^^ 
+        !!!FOR BACKEND TESTING!!!
+        && for scripts.js vvv-->
+    <script src="/static/scripts.js"></script>
+    <title>UCSC Academic Helper</title>
+</head>
+
+<body class="application">
+    <header class="application-header">
+        <div class="application-header__wrapper">
+            UCSC ACADEMIC HELPER
+        </div>
+    </header>
+    <div class="flex-box">
+        <div>
+            PDF For Class: <input type="checkbox" id="pdf">
+        </div>
+        <div>
+            List all Classes: <input type="checkbox" id="all_class">
+        </div>
+        <div>
+            Low/Upper Division (Check for Upper): <input type="checkbox" id="divs">
+        </div>
+        <div>
+            Check Qualification: <input type="checkbox" id="quali">
+        </div>
+        <div>
+            List Required Courses for Classes: <input type="checkbox" id="req">
+        </div>
+    </div>
+    <center>
+        <div class="expanded button-group">
+            <button class="button button-rounded-hover" id="CS">
+                Computer Science</button>
+            <button class="button button-rounded-hover" id="EE">Electrical Engineering</button>
+            <button class="button button-rounded-hover" id="CE">Computer Engineering</button>
+        </div>
+    </center>
+
+
+
+    <script>
+        $(document).foundation();
+    </script>
+
+    <div id="result"></div>
+
+    <footer class="application-footer">
+        Credits: Carl R. Young M. Yuan J. Atiq S. Brian B.
+
+    </footer>
+
+</body>
+
+</html>

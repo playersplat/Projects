@@ -1,0 +1,63 @@
+TOP.testbench.cg with cycle_time_p          10
+
+  ______          __  __                    __                       ____  _       ___          
+ /_  __/__  _____/ /_/ /_  ___  ____  _____/ /_     ____ ___  __  __/ / /_(_)___  / (_)__  _____
+  / / / _ \/ ___/ __/ __ \/ _ \/ __ \/ ___/ __ \   / __ `__ \/ / / / / __/ / __ \/ / / _ \/ ___/
+ / / /  __(__  ) /_/ /_/ /  __/ / / / /__/ / / /  / / / / / / /_/ / / /_/ / /_/ / / /  __/ /    
+/_/  \___/____/\__/_.___/\___/_/ /_/\___/_/ /_/  /_/ /_/ /_/\__,_/_/\__/_/ .___/_/_/\___/_/     
+                                                                        /_/                     
+
+Begin Test:
+__________ ___________  _______________________________
+\______   \\_   _____/ /   _____/\_   _____/\__    ___/
+ |       _/ |    __)_  \_____  \  |    __)_   |    |   
+ |    |   \ |        \ /        \ |        \  |    |  0->1 time =         10
+ |____|_  //_______  //_______  //_______  /  |____|   
+ ASYNC  \/         \/         \/         \/            
+Iteration           0 Starting: a_i = 00001, b_i = 00101
+__________ ___________  _______________________________
+\______   \\_   _____/ /   _____/\_   _____/\__    ___/
+ |       _/ |    __)_  \_____  \  |    __)_   |    |   
+ |    |   \ |        \ /        \ |        \  |    |  1->0 time =        110
+ |____|_  //_______  //_______  //_______  /  |____|   
+ ASYNC  \/         \/         \/         \/            
+Iteration           1, correct result computed.
+Iteration           1 Starting: a_i = 00010, b_i = 01010
+Iteration           2, correct result computed.
+Iteration           2 Starting: a_i = 01000, b_i = 00111
+Iteration           3, correct result computed.
+Iteration           3 Starting: a_i = 11111, b_i = 00100
+Iteration           4, correct result computed.
+Iteration           4 Starting: a_i = 00000, b_i = 01001
+Iteration           5, correct result computed.
+Iteration           5 Starting: a_i = 00011, b_i = 01011
+Iteration           6, correct result computed.
+Iteration           6 Starting: a_i = 00101, b_i = 01101
+Iteration           7, correct result computed.
+Iteration           7 Starting: a_i = 00000, b_i = 00000
+Iteration           8, correct result computed.
+Iteration           8 Starting: a_i = 00101, b_i = 00001
+Iteration           9, correct result computed.
+Iteration           9 Starting: a_i = 01010, b_i = 00010
+Iteration          10, correct result computed.
+Iteration          10 Starting: a_i = 00111, b_i = 01000
+Iteration          11, correct result computed.
+Iteration          11 Starting: a_i = 01001, b_i = 00000
+Iteration          12, correct result computed.
+Iteration          12 Starting: a_i = 01011, b_i = 00011
+Iteration          13, correct result computed.
+Iteration          13 Starting: a_i = 01101, b_i = 00101
+Iteration          14, correct result computed.
+Iteration          14 Starting: a_i = 00100, b_i = 11111
+Iteration          15, correct result computed.
+Iteration          15 Starting: a_i = 00000, b_i = 10001
+Iteration          16, correct result computed.
+- testbench.sv:175: Verilog $finish
+Simulation time is              1175000
+[0;32m    ____  ___   __________[0m
+[0;32m   / __ \/   | / ___/ ___/[0m
+[0;32m  / /_/ / /| | \__ \__  [0m
+[0;32m / ____/ ___ |___/ /__/ / [0m
+[0;32m/_/   /_/  |_/____/____/  [0m
+
+Simulation Succeeded!

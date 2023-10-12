@@ -1,0 +1,52 @@
+testbench.cg with cycle_time_p          10
+VCD info: dumpfile iverilog.vcd opened for output.
+VCD warning: $dumpvars: Unsupported argument type (vpiPackage)
+
+  ______          __  __                    __            __    _ ______ 
+ /_  __/__  _____/ /_/ /_  ___  ____  _____/ /_     _____/ /_  (_) __/ /_
+  / / / _ \/ ___/ __/ __ \/ _ \/ __ \/ ___/ __ \   / ___/ __ \/ / /_/ __/
+ / / /  __(__  ) /_/ /_/ /  __/ / / / /__/ / / /  (__  ) / / / / __/ /_  
+/_/  \___/____/\__/_.___/\___/_/ /_/\___/_/ /_/  /____/_/ /_/_/_/  \__/  
+
+Begin Test:
+__________ ___________  _______________________________
+\______   \\_   _____/ /   _____/\_   _____/\__    ___/
+ |       _/ |    __)_  \_____  \  |    __)_   |    |   
+ |    |   \ |        \ /        \ |        \  |    |  0->1 time =         10
+ |____|_  //_______  //_______  //_______  /  |____|   
+ ASYNC  \/         \/         \/         \/            
+__________ ___________  _______________________________
+\______   \\_   _____/ /   _____/\_   _____/\__    ___/
+ |       _/ |    __)_  \_____  \  |    __)_   |    |   
+ |    |   \ |        \ /        \ |        \  |    |  1->0 time =        110
+ |____|_  //_______  //_______  //_______  /  |____|   
+ ASYNC  \/         \/         \/         \/            
+At Posedge           0: data_i = 1, correct_data_o = 10101, reset_i = 0 
+At Posedge           1: data_i = 1, correct_data_o = 01011, reset_i = 0 
+At Posedge           2: data_i = 1, correct_data_o = 10111, reset_i = 0 
+At Posedge           3: data_i = 0, correct_data_o = 01110, reset_i = 0 
+At Posedge           4: data_i = 0, correct_data_o = 11100, reset_i = 0 
+At Posedge           5: data_i = 0, correct_data_o = 11000, reset_i = 0 
+At Posedge           6: data_i = 1, correct_data_o = 10001, reset_i = 0 
+At Posedge           7: data_i = 0, correct_data_o = 00010, reset_i = 0 
+At Posedge           8: data_i = 1, correct_data_o = 00101, reset_i = 0 
+At Posedge           9: data_i = 0, correct_data_o = 01010, reset_i = 0 
+At Posedge          10: data_i = 1, correct_data_o = 10101, reset_i = 0 
+At Posedge          11: data_i = 0, correct_data_o = 01010, reset_i = 0 
+At Posedge          12: data_i = 0, correct_data_o = 10100, reset_i = 0 
+At Posedge          13: data_i = 1, correct_data_o = 01001, reset_i = 0 
+At Posedge          14: data_i = 1, correct_data_o = 10011, reset_i = 0 
+At Posedge          15: data_i = 0, correct_data_o = 00110, reset_i = 0 
+At Posedge          16: data_i = 1, correct_data_o = 01101, reset_i = 0 
+At Posedge          17: data_i = 1, correct_data_o = 11011, reset_i = 0 
+At Posedge          18: data_i = 0, correct_data_o = 10110, reset_i = 0 
+At Posedge          19: data_i = 0, correct_data_o = 01100, reset_i = 0 
+Simulation time is               305000
+[0;32m    ____  ___   __________[0m
+[0;32m   / __ \/   | / ___/ ___/[0m
+[0;32m  / /_/ / /| | \__ \__  [0m
+[0;32m / ____/ ___ |___/ /__/ / [0m
+[0;32m/_/   /_/  |_/____/____/  [0m
+
+Simulation Succeeded!
+Current System Time is: 06:25:02 PM--02/02/2023

@@ -1,0 +1,96 @@
+testbench.cg with cycle_time_p          10
+VCD info: dumpfile iverilog.vcd opened for output.
+VCD warning: $dumpvars: Unsupported argument type (vpiPackage)
+
+  ______          __  __                    __       __ __                            _ 
+ /_  __/__  _____/ /_/ /_  ___  ____  _____/ /_     / //_/___  ____  ____ _____ ___  (_)
+  / / / _ \/ ___/ __/ __ \/ _ \/ __ \/ ___/ __ \   / ,< / __ \/ __ \/ __ `/ __ `__ \/ / 
+ / / /  __(__  ) /_/ /_/ /  __/ / / / /__/ / / /  / /| / /_/ / / / / /_/ / / / / / / /  
+/_/  \___/____/\__/_.___/\___/_/ /_/\___/_/ /_/  /_/ |_\____/_/ /_/\__,_/_/ /_/ /_/_/   
+
+Begin Test:
+__________ ___________  _______________________________
+\______   \\_   _____/ /   _____/\_   _____/\__    ___/
+ |       _/ |    __)_  \_____  \  |    __)_   |    |   
+ |    |   \ |        \ /        \ |        \  |    |  0->1 time =         10
+ |____|_  //_______  //_______  //_______  /  |____|   
+ ASYNC  \/         \/         \/         \/            
+__________ ___________  _______________________________
+\______   \\_   _____/ /   _____/\_   _____/\__    ___/
+ |       _/ |    __)_  \_____  \  |    __)_   |    |   
+ |    |   \ |        \ /        \ |        \  |    |  1->0 time =        110
+ |____|_  //_______  //_______  //_______  /  |____|   
+ ASYNC  \/         \/         \/         \/            
+At Posedge           0: U: 0 D: 0, L: 0, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge           1: U: 1 D: 0, L: 0, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge           2: U: 1 D: 0, L: 0, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge           3: U: 0 D: 1, L: 0, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge           4: U: 0 D: 1, L: 0, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge           5: U: 0 D: 0, L: 1, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge           6: U: 0 D: 0, L: 0, R:1, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge           7: U: 0 D: 0, L: 1, R:1, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge           8: U: 0 D: 0, L: 0, R:0, B:1, A:0, S:0, R:0 reset_i = 0 
+At Posedge           9: U: 0 D: 0, L: 0, R:0, B:0, A:1, S:0, R:0 reset_i = 0 
+At Posedge          10: U: 0 D: 0, L: 0, R:0, B:0, A:0, S:1, R:0 reset_i = 0 
+At Posedge          11: U: 1 D: 0, L: 0, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          12: U: 0 D: 1, L: 0, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          13: U: 0 D: 0, L: 1, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          14: U: 0 D: 0, L: 0, R:1, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          15: U: 0 D: 0, L: 0, R:0, B:1, A:0, S:0, R:0 reset_i = 0 
+At Posedge          16: U: 0 D: 0, L: 0, R:0, B:0, A:1, S:0, R:0 reset_i = 0 
+At Posedge          17: U: 0 D: 0, L: 0, R:0, B:0, A:0, S:1, R:0 reset_i = 0 
+At Posedge          18: U: 1 D: 0, L: 0, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          19: U: 1 D: 0, L: 0, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          20: U: 0 D: 1, L: 0, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          21: U: 0 D: 1, L: 0, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          22: U: 0 D: 0, L: 1, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          23: U: 0 D: 0, L: 0, R:1, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          24: U: 0 D: 0, L: 1, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          25: U: 0 D: 0, L: 0, R:1, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          26: U: 0 D: 0, L: 0, R:0, B:1, A:0, S:0, R:0 reset_i = 0 
+At Posedge          27: U: 0 D: 0, L: 0, R:0, B:0, A:1, S:0, R:0 reset_i = 0 
+At Posedge          28: U: 0 D: 0, L: 0, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          29: U: 0 D: 0, L: 0, R:0, B:0, A:0, S:0, R:1 reset_i = 0 
+At Posedge          30: U: 0 D: 0, L: 0, R:0, B:0, A:0, S:1, R:0 reset_i = 0 
+At Posedge          31: U: 1 D: 1, L: 0, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          32: U: 1 D: 1, L: 0, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          33: U: 0 D: 0, L: 1, R:1, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          34: U: 0 D: 0, L: 1, R:1, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          35: U: 0 D: 0, L: 0, R:0, B:1, A:1, S:0, R:0 reset_i = 0 
+At Posedge          36: U: 0 D: 0, L: 0, R:0, B:0, A:0, S:1, R:0 reset_i = 0 
+At Posedge          37: U: 0 D: 0, L: 0, R:0, B:1, A:0, S:0, R:0 reset_i = 0 
+At Posedge          38: U: 0 D: 0, L: 1, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          39: U: 1 D: 0, L: 0, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          40: U: 1 D: 0, L: 0, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          41: U: 1 D: 0, L: 0, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          42: U: 1 D: 0, L: 0, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          43: U: 0 D: 1, L: 0, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          44: U: 0 D: 1, L: 0, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          45: U: 0 D: 0, L: 1, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          46: U: 0 D: 0, L: 0, R:1, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          47: U: 0 D: 0, L: 1, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          48: U: 0 D: 0, L: 0, R:1, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          49: U: 0 D: 0, L: 0, R:0, B:1, A:0, S:0, R:0 reset_i = 0 
+At Posedge          50: U: 0 D: 0, L: 0, R:0, B:0, A:1, S:0, R:0 reset_i = 0 
+At Posedge          51: U: 0 D: 0, L: 0, R:0, B:0, A:0, S:1, R:0 reset_i = 0 
+At Posedge          52: U: 1 D: 0, L: 0, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          53: U: 1 D: 0, L: 0, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          54: U: 0 D: 1, L: 0, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          55: U: 0 D: 1, L: 0, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          56: U: 0 D: 0, L: 1, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          57: U: 0 D: 0, L: 0, R:1, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          58: U: 0 D: 0, L: 1, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          59: U: 0 D: 0, L: 0, R:1, B:0, A:0, S:0, R:0 reset_i = 0 
+At Posedge          60: U: 0 D: 0, L: 0, R:0, B:1, A:0, S:0, R:0 reset_i = 0 
+At Posedge          61: U: 0 D: 0, L: 0, R:0, B:0, A:1, S:0, R:0 reset_i = 0 
+At Posedge          62: U: 0 D: 0, L: 0, R:0, B:0, A:0, S:1, R:0 reset_i = 0 
+At Posedge          63: U: 0 D: 0, L: 0, R:0, B:0, A:0, S:0, R:0 reset_i = 0 
+Simulation time is               750000
+[0;32m    ____  ___   __________[0m
+[0;32m   / __ \/   | / ___/ ___/[0m
+[0;32m  / /_/ / /| | \__ \__  [0m
+[0;32m / ____/ ___ |___/ /__/ / [0m
+[0;32m/_/   /_/  |_/____/____/  [0m
+
+Simulation Succeeded!
+Current System Time is: 06:59:08 PM--02/02/2023

@@ -1,0 +1,96 @@
+testbench.cg with cycle_time_p          10
+VCD info: dumpfile iverilog.vcd opened for output.
+VCD warning: $dumpvars: Unsupported argument type (vpiPackage)
+
+  ______          __  __                    __                              __           
+ /_  __/__  _____/ /_/ /_  ___  ____  _____/ /_     _________  __  ______  / /____  _____
+  / / / _ \/ ___/ __/ __ \/ _ \/ __ \/ ___/ __ \   / ___/ __ \/ / / / __ \/ __/ _ \/ ___/
+ / / /  __(__  ) /_/ /_/ /  __/ / / / /__/ / / /  / /__/ /_/ / /_/ / / / / /_/  __/ /    
+/_/  \___/____/\__/_.___/\___/_/ /_/\___/_/ /_/   \___/\____/\__,_/_/ /_/\__/\___/_/     
+
+Begin Test:
+__________ ___________  _______________________________
+\______   \\_   _____/ /   _____/\_   _____/\__    ___/
+ |       _/ |    __)_  \_____  \  |    __)_   |    |   
+ |    |   \ |        \ /        \ |        \  |    |  0->1 time =         10
+ |____|_  //_______  //_______  //_______  /  |____|   
+ ASYNC  \/         \/         \/         \/            
+__________ ___________  _______________________________
+\______   \\_   _____/ /   _____/\_   _____/\__    ___/
+ |       _/ |    __)_  \_____  \  |    __)_   |    |   
+ |    |   \ |        \ /        \ |        \  |    |  1->0 time =        110
+ |____|_  //_______  //_______  //_______  /  |____|   
+ ASYNC  \/         \/         \/         \/            
+At Posedge           0: up_i = 0, down_i = 0, correct_count_o = 00000, reset_i = 0 
+At Posedge           1: up_i = 0, down_i = 1, correct_count_o = 11111, reset_i = 0 
+At Posedge           2: up_i = 0, down_i = 1, correct_count_o = 11110, reset_i = 0 
+At Posedge           3: up_i = 1, down_i = 0, correct_count_o = 11111, reset_i = 0 
+At Posedge           4: up_i = 0, down_i = 1, correct_count_o = 11110, reset_i = 0 
+At Posedge           5: up_i = 0, down_i = 1, correct_count_o = 11101, reset_i = 0 
+At Posedge           6: up_i = 0, down_i = 1, correct_count_o = 11100, reset_i = 0 
+At Posedge           7: up_i = 1, down_i = 0, correct_count_o = 11101, reset_i = 0 
+At Posedge           8: up_i = 1, down_i = 1, correct_count_o = 11101, reset_i = 0 
+At Posedge           9: up_i = 0, down_i = 0, correct_count_o = 11101, reset_i = 0 
+At Posedge          10: up_i = 0, down_i = 1, correct_count_o = 11100, reset_i = 0 
+At Posedge          11: up_i = 0, down_i = 1, correct_count_o = 11011, reset_i = 0 
+At Posedge          12: up_i = 1, down_i = 0, correct_count_o = 11100, reset_i = 0 
+At Posedge          13: up_i = 0, down_i = 1, correct_count_o = 11011, reset_i = 0 
+At Posedge          14: up_i = 1, down_i = 0, correct_count_o = 11100, reset_i = 0 
+At Posedge          15: up_i = 0, down_i = 0, correct_count_o = 11100, reset_i = 0 
+At Posedge          16: up_i = 0, down_i = 0, correct_count_o = 11100, reset_i = 0 
+At Posedge          17: up_i = 0, down_i = 1, correct_count_o = 11011, reset_i = 0 
+At Posedge          18: up_i = 0, down_i = 1, correct_count_o = 11010, reset_i = 0 
+At Posedge          19: up_i = 1, down_i = 0, correct_count_o = 11011, reset_i = 0 
+At Posedge          20: up_i = 0, down_i = 1, correct_count_o = 11010, reset_i = 0 
+At Posedge          21: up_i = 0, down_i = 1, correct_count_o = 11001, reset_i = 0 
+At Posedge          22: up_i = 0, down_i = 1, correct_count_o = 11000, reset_i = 0 
+At Posedge          23: up_i = 1, down_i = 0, correct_count_o = 11001, reset_i = 0 
+At Posedge          24: up_i = 1, down_i = 1, correct_count_o = 11001, reset_i = 0 
+At Posedge          25: up_i = 0, down_i = 0, correct_count_o = 11001, reset_i = 0 
+At Posedge          26: up_i = 0, down_i = 1, correct_count_o = 11000, reset_i = 0 
+At Posedge          27: up_i = 0, down_i = 1, correct_count_o = 10111, reset_i = 0 
+At Posedge          28: up_i = 1, down_i = 0, correct_count_o = 11000, reset_i = 0 
+At Posedge          29: up_i = 0, down_i = 1, correct_count_o = 10111, reset_i = 0 
+At Posedge          30: up_i = 1, down_i = 0, correct_count_o = 11000, reset_i = 0 
+At Posedge          31: up_i = 0, down_i = 0, correct_count_o = 11000, reset_i = 0 
+At Posedge          32: up_i = 0, down_i = 0, correct_count_o = 11000, reset_i = 0 
+At Posedge          33: up_i = 0, down_i = 1, correct_count_o = 10111, reset_i = 0 
+At Posedge          34: up_i = 0, down_i = 1, correct_count_o = 10110, reset_i = 0 
+At Posedge          35: up_i = 1, down_i = 0, correct_count_o = 10111, reset_i = 0 
+At Posedge          36: up_i = 1, down_i = 1, correct_count_o = 10111, reset_i = 0 
+At Posedge          37: up_i = 0, down_i = 0, correct_count_o = 10111, reset_i = 0 
+At Posedge          38: up_i = 0, down_i = 1, correct_count_o = 10110, reset_i = 0 
+At Posedge          39: up_i = 0, down_i = 1, correct_count_o = 10101, reset_i = 0 
+At Posedge          40: up_i = 1, down_i = 0, correct_count_o = 10110, reset_i = 0 
+At Posedge          41: up_i = 0, down_i = 1, correct_count_o = 10101, reset_i = 0 
+At Posedge          42: up_i = 1, down_i = 0, correct_count_o = 10110, reset_i = 0 
+At Posedge          43: up_i = 0, down_i = 0, correct_count_o = 10110, reset_i = 0 
+At Posedge          44: up_i = 0, down_i = 0, correct_count_o = 10110, reset_i = 0 
+At Posedge          45: up_i = 0, down_i = 1, correct_count_o = 10101, reset_i = 0 
+At Posedge          46: up_i = 0, down_i = 1, correct_count_o = 10100, reset_i = 0 
+At Posedge          47: up_i = 1, down_i = 0, correct_count_o = 10101, reset_i = 0 
+At Posedge          48: up_i = 0, down_i = 1, correct_count_o = 10100, reset_i = 0 
+At Posedge          49: up_i = 0, down_i = 1, correct_count_o = 10011, reset_i = 0 
+At Posedge          50: up_i = 0, down_i = 1, correct_count_o = 10010, reset_i = 0 
+At Posedge          51: up_i = 1, down_i = 0, correct_count_o = 10011, reset_i = 0 
+At Posedge          52: up_i = 0, down_i = 1, correct_count_o = 10010, reset_i = 0 
+At Posedge          53: up_i = 0, down_i = 1, correct_count_o = 10001, reset_i = 0 
+At Posedge          54: up_i = 0, down_i = 1, correct_count_o = 10000, reset_i = 0 
+At Posedge          55: up_i = 1, down_i = 0, correct_count_o = 10001, reset_i = 0 
+At Posedge          56: up_i = 1, down_i = 1, correct_count_o = 10001, reset_i = 0 
+At Posedge          57: up_i = 0, down_i = 0, correct_count_o = 10001, reset_i = 0 
+At Posedge          58: up_i = 0, down_i = 1, correct_count_o = 10000, reset_i = 0 
+At Posedge          59: up_i = 0, down_i = 1, correct_count_o = 01111, reset_i = 0 
+At Posedge          60: up_i = 1, down_i = 0, correct_count_o = 10000, reset_i = 0 
+At Posedge          61: up_i = 0, down_i = 1, correct_count_o = 01111, reset_i = 0 
+At Posedge          62: up_i = 1, down_i = 0, correct_count_o = 10000, reset_i = 0 
+At Posedge          63: up_i = 0, down_i = 0, correct_count_o = 10000, reset_i = 0 
+Simulation time is               745000
+[0;32m    ____  ___   __________[0m
+[0;32m   / __ \/   | / ___/ ___/[0m
+[0;32m  / /_/ / /| | \__ \__  [0m
+[0;32m / ____/ ___ |___/ /__/ / [0m
+[0;32m/_/   /_/  |_/____/____/  [0m
+
+Simulation Succeeded!
+Current System Time is: 04:46:36 PM--01/24/2023

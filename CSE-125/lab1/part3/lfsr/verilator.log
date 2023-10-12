@@ -1,0 +1,94 @@
+TOP.testbench.cg with cycle_time_p          10
+
+  ______          __  __                    __       __    ___________ ____ 
+ /_  __/__  _____/ /_/ /_  ___  ____  _____/ /_     / /   / ____/ ___// __ \
+  / / / _ \/ ___/ __/ __ \/ _ \/ __ \/ ___/ __ \   / /   / /_   \__ \/ /_/ /
+ / / /  __(__  ) /_/ /_/ /  __/ / / / /__/ / / /  / /___/ __/  ___/ / _, _/ 
+/_/  \___/____/\__/_.___/\___/_/ /_/\___/_/ /_/  /_____/_/    /____/_/ |_|  
+
+Begin Test:
+__________ ___________  _______________________________
+\______   \\_   _____/ /   _____/\_   _____/\__    ___/
+ |       _/ |    __)_  \_____  \  |    __)_   |    |   
+ |    |   \ |        \ /        \ |        \  |    |  0->1 time =         10
+ |____|_  //_______  //_______  //_______  /  |____|   
+ ASYNC  \/         \/         \/         \/            
+__________ ___________  _______________________________
+\______   \\_   _____/ /   _____/\_   _____/\__    ___/
+ |       _/ |    __)_  \_____  \  |    __)_   |    |   
+ |    |   \ |        \ /        \ |        \  |    |  1->0 time =        110
+ |____|_  //_______  //_______  //_______  /  |____|   
+ ASYNC  \/         \/         \/         \/            
+At Posedge           0: correct_data_o = 00010, reset_i = 0 
+At Posedge           1: correct_data_o = 00101, reset_i = 0 
+At Posedge           2: correct_data_o = 01010, reset_i = 0 
+At Posedge           3: correct_data_o = 10101, reset_i = 0 
+At Posedge           4: correct_data_o = 01011, reset_i = 0 
+At Posedge           5: correct_data_o = 10111, reset_i = 0 
+At Posedge           6: correct_data_o = 01110, reset_i = 0 
+At Posedge           7: correct_data_o = 11101, reset_i = 0 
+At Posedge           8: correct_data_o = 11011, reset_i = 0 
+At Posedge           9: correct_data_o = 10110, reset_i = 0 
+At Posedge          10: correct_data_o = 01100, reset_i = 0 
+At Posedge          11: correct_data_o = 11000, reset_i = 0 
+At Posedge          12: correct_data_o = 10001, reset_i = 0 
+At Posedge          13: correct_data_o = 00011, reset_i = 0 
+At Posedge          14: correct_data_o = 00111, reset_i = 0 
+At Posedge          15: correct_data_o = 01111, reset_i = 0 
+At Posedge          16: correct_data_o = 11111, reset_i = 0 
+At Posedge          17: correct_data_o = 11110, reset_i = 0 
+At Posedge          18: correct_data_o = 11100, reset_i = 0 
+At Posedge          19: correct_data_o = 11001, reset_i = 0 
+At Posedge          20: correct_data_o = 10011, reset_i = 0 
+At Posedge          21: correct_data_o = 00110, reset_i = 0 
+At Posedge          22: correct_data_o = 01101, reset_i = 0 
+At Posedge          23: correct_data_o = 11010, reset_i = 0 
+At Posedge          24: correct_data_o = 10100, reset_i = 0 
+At Posedge          25: correct_data_o = 01001, reset_i = 0 
+At Posedge          26: correct_data_o = 10010, reset_i = 0 
+At Posedge          27: correct_data_o = 00100, reset_i = 0 
+At Posedge          28: correct_data_o = 01000, reset_i = 0 
+At Posedge          29: correct_data_o = 10000, reset_i = 0 
+At Posedge          30: correct_data_o = 00001, reset_i = 0 
+At Posedge          31: correct_data_o = 00010, reset_i = 0 
+At Posedge          32: correct_data_o = 00101, reset_i = 0 
+At Posedge          33: correct_data_o = 01010, reset_i = 0 
+At Posedge          34: correct_data_o = 10101, reset_i = 0 
+At Posedge          35: correct_data_o = 01011, reset_i = 0 
+At Posedge          36: correct_data_o = 10111, reset_i = 0 
+At Posedge          37: correct_data_o = 01110, reset_i = 0 
+At Posedge          38: correct_data_o = 11101, reset_i = 0 
+At Posedge          39: correct_data_o = 11011, reset_i = 0 
+At Posedge          40: correct_data_o = 10110, reset_i = 0 
+At Posedge          41: correct_data_o = 01100, reset_i = 0 
+At Posedge          42: correct_data_o = 11000, reset_i = 0 
+At Posedge          43: correct_data_o = 10001, reset_i = 0 
+At Posedge          44: correct_data_o = 00011, reset_i = 0 
+At Posedge          45: correct_data_o = 00111, reset_i = 0 
+At Posedge          46: correct_data_o = 01111, reset_i = 0 
+At Posedge          47: correct_data_o = 11111, reset_i = 0 
+At Posedge          48: correct_data_o = 11110, reset_i = 0 
+At Posedge          49: correct_data_o = 11100, reset_i = 0 
+At Posedge          50: correct_data_o = 11001, reset_i = 0 
+At Posedge          51: correct_data_o = 10011, reset_i = 0 
+At Posedge          52: correct_data_o = 00110, reset_i = 0 
+At Posedge          53: correct_data_o = 01101, reset_i = 0 
+At Posedge          54: correct_data_o = 11010, reset_i = 0 
+At Posedge          55: correct_data_o = 10100, reset_i = 0 
+At Posedge          56: correct_data_o = 01001, reset_i = 0 
+At Posedge          57: correct_data_o = 10010, reset_i = 0 
+At Posedge          58: correct_data_o = 00100, reset_i = 0 
+At Posedge          59: correct_data_o = 01000, reset_i = 0 
+At Posedge          60: correct_data_o = 10000, reset_i = 0 
+At Posedge          61: correct_data_o = 00001, reset_i = 0 
+At Posedge          62: correct_data_o = 00010, reset_i = 0 
+At Posedge          63: correct_data_o = 00101, reset_i = 0 
+- testbench.sv:68: Verilog $finish
+Simulation time is               750000
+[0;32m    ____  ___   __________[0m
+[0;32m   / __ \/   | / ___/ ___/[0m
+[0;32m  / /_/ / /| | \__ \__  [0m
+[0;32m / ____/ ___ |___/ /__/ / [0m
+[0;32m/_/   /_/  |_/____/____/  [0m
+
+Simulation Succeeded!

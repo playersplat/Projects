@@ -1,0 +1,45 @@
+TOP.testbench.cg with cycle_time_p          10
+TOP.testbench.dut.rom_inst: depth_p is         20, width_p is          4
+
+  ______          __  __                    __       ____        ___           __                        
+ /_  __/__  _____/ /_/ /_  ___  ____  _____/ /_     / __ \____ _/ (_)___  ____/ /________  ____ ___  ___ 
+  / / / _ \/ ___/ __/ __ \/ _ \/ __ \/ ___/ __ \   / /_/ / __ `/ / / __ \/ __  / ___/ __ \/ __ `__ \/ _ \
+ / / /  __(__  ) /_/ /_/ /  __/ / / / /__/ / / /  / ____/ /_/ / / / / / / /_/ / /  / /_/ / / / / / /  __/
+/_/  \___/____/\__/_.___/\___/_/ /_/\___/_/ /_/  /_/    \__,_/_/_/_/ /_/\__,_/_/   \____/_/ /_/ /_/\___/ 
+
+Begin Test:
+__________ ___________  _______________________________
+\______   \\_   _____/ /   _____/\_   _____/\__    ___/
+ |       _/ |    __)_  \_____  \  |    __)_   |    |   
+ |    |   \ |        \ /        \ |        \  |    |  0->1 time =         10
+ |____|_  //_______  //_______  //_______  /  |____|   
+ ASYNC  \/         \/         \/         \/            
+__________ ___________  _______________________________
+\______   \\_   _____/ /   _____/\_   _____/\__    ___/
+ |       _/ |    __)_  \_____  \  |    __)_   |    |   
+ |    |   \ |        \ /        \ |        \  |    |  1->0 time =        110
+ |____|_  //_______  //_______  //_______  /  |____|   
+ ASYNC  \/         \/         \/         \/            
+At Posedge           0: symbol_i: 0 valid_i: 0 reset_i = 0 0 
+At Posedge           1: symbol_i: 0 valid_i: 0 reset_i = 0 0 
+At Posedge           2: symbol_i: 0 valid_i: 0 reset_i = 0 0 
+At Posedge           3: symbol_i: 0 valid_i: 0 reset_i = 0 0 
+At Posedge           4: symbol_i: 0 valid_i: 0 reset_i = 0 0 
+At Posedge           5: symbol_i: a valid_i: 1 reset_i = 0 0 
+At Posedge           6: symbol_i: a valid_i: 0 reset_i = 0 0 
+At Posedge           7: symbol_i: 0 valid_i: 0 reset_i = 0 0 
+At Posedge           8: symbol_i: 0 valid_i: 0 reset_i = 0 0 
+At Posedge           9: symbol_i: 0 valid_i: 0 reset_i = 0 0 
+At Posedge          10: symbol_i: 0 valid_i: 0 reset_i = 0 0 
+At Posedge          11: symbol_i: a valid_i: 1 reset_i = 0 0 
+At Posedge          12: symbol_i: a valid_i: 1 reset_i = 0 0 
+[0;31mError![0m: Iteration          13 palindrome_o should be 1, but got 0
+- testbench.sv:93: Verilog $finish
+Simulation time is               245000
+[0;31m    ______                    [0m
+[0;31m   / ____/_____________  _____[0m
+[0;31m  / __/ / ___/ ___/ __ \/ ___/[0m
+[0;31m / /___/ /  / /  / /_/ / /    [0m
+[0;31m/_____/_/  /_/   \____/_/     [0m
+
+Simulation Failed

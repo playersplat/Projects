@@ -1,0 +1,28 @@
+VCD info: dumpfile iverilog.vcd opened for output.
+VCD warning: $dumpvars: Unsupported argument type (vpiPackage)
+
+  ______          __  __                    __       ____      ____              __    __
+ /_  __/__  _____/ /_/ /_  ___  ____  _____/ /_     / __/_  __/ / /   ____ _____/ /___/ /
+  / / / _ \/ ___/ __/ __ \/ _ \/ __ \/ ___/ __ \   / /_/ / / / / /   / __ `/ __  / __  / 
+ / / /  __(__  ) /_/ /_/ /  __/ / / / /__/ / / /  / __/ /_/ / / /   / /_/ / /_/ / /_/ /  
+/_/  \___/____/\__/_.___/\___/_/ /_/\___/_/ /_/  /_/  \__,_/_/_/____\__,_/\__,_/\__,_/   
+                                                              /_____/                          
+Begin Test:
+
+  a_i = 0, b_i = 0, carry_i = 0
+  a_i = 0, b_i = 0, carry_i = 1
+  a_i = 0, b_i = 1, carry_i = 0
+  a_i = 0, b_i = 1, carry_i = 1
+  a_i = 1, b_i = 0, carry_i = 0
+  a_i = 1, b_i = 0, carry_i = 1
+  a_i = 1, b_i = 1, carry_i = 0
+  a_i = 1, b_i = 1, carry_i = 1
+Simulation time is                90000
+[0;32m    ____  ___   __________[0m
+[0;32m   / __ \/   | / ___/ ___/[0m
+[0;32m  / /_/ / /| | \__ \__  [0m
+[0;32m / ____/ ___ |___/ /__/ / [0m
+[0;32m/_/   /_/  |_/____/____/  [0m
+
+Simulation Succeeded!
+Current System Time is: 09:49:21 PM--01/23/2023
