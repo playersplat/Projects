@@ -241,21 +241,6 @@ void handle_connection(int connfd) {
         strcpy(tempbuff, buffer); //copy buffer values into tempbuff
         //printf("tempbuff: %s", tempbuff);
         int cases = handle_protocol(&quest, tempbuff);
-
-        //printf("cases: %d\n", cases);
-        //printf("quest method: %s\n", quest.method);
-        //printf("questvalidmethod: %d\n", quest.isvalid_method);
-        //printf("questuri: %s\n", quest.uri);
-        //printf("validuri: %d\n", quest.isvalid_uri);
-        //printf("questversion: %s\n", quest.version);
-        //printf("validversion: %d\n", quest.isvalid_version);
-        //printf("headerfield_count: %d\n", quest.headerfield_count);
-        //printf("hf_content_leng: %d\n", quest.hf_content_leng);
-        //printf("has_content_leng: %d\n", quest.has_content_leng);
-        //printf("message_body: %s\n", quest.message_body);
-        //printf("has_message_body: %d\n", quest.has_message_body);
-        //fprintf(stderr, "%d\n", access(quest.uri, F_OK));
-        //fprintf(stderr, "%d\n", access("foo.txt", F_OK));
         char temp[buf];
         memset(temp, '\0', sizeof(temp));
         strcpy(temp, quest.uri);

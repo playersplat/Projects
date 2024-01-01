@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Apr 15 15:04:11 2020
-CSE 30 Spring 2020 Program 1 helper code
 @author: Fahim
 """
 import math
