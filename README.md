@@ -1,15 +1,13 @@
 # Projects
-A private repository for people to view my past works on github rather than gitlab/git.ucsc
+A repository for people to view my past works on github
 ## CSE-30: Programming Abstractions in Python
 ## CSE-101: Introduction to Data Structures and Algorithms
 ## CSE-115A: Introduction to Software Engineering
 ## CSE-115D Software Design Project - Accelerated
-Will add once the Quarter Ends
 ## CSE-121: Embedded System Design
 ## CSE-125: Logic Design with Verilog
 ## CSE-130: Principles of Computer Systems Design
 ## CSE-138: Distributed Systems
-Updating as the class continues until the end of the Quarter
 ## MagicMirror
 
 ## Repos lost to time
