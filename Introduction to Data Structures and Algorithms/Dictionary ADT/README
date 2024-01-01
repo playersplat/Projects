@@ -1,0 +1,21 @@
+/********************************************************************************
+ * Brian Bui, bbui3
+ * 2021 Spring
+ * README.txt
+ * README for Dictionary ADT Programming Assignment
+ *********************************************************************************/
+Files:
+Dictionary.h
+	Main header file for Dictionary ADT
+Dictionary.c
+	Main source file for Dictionary ADT, has all required functions for List ADT
+DictionaryTest.c
+	Tests functions from Dictionary.c
+Lex.c
+	Client file for Dictionary ADT PA
+
+Makefile
+	Makefile for Dictionary.h Dictionary.c DictionaryTest.c Lex.c
+README
+	T.O.C and is this file
+Special Notes:
