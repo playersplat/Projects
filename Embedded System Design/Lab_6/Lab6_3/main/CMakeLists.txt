@@ -1,2 +1,0 @@
-idf_component_register(SRCS "Lab6_3.c"
-                    INCLUDE_DIRS ".")
