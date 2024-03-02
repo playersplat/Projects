@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.39.0.0
+Copyright (C) 2023 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Brian Bui, UT.6.02x, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.39.0.0
+Toolchain Path:  D:\Keil\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.21
+Assembler:       Armasm.exe V6.21
+Linker/Locator:  ArmLink.exe V6.21
+Library Manager: ArmAr.exe V6.21
+Hex Converter:   FromElf.exe V6.21
+CPU DLL:         SARMCM3.DLL V5.39.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+D:\Keil\Labware\Lab11_UART\Lab11.uvproj
+Project File Date:  02/26/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.21', folder: 'D:\Keil\ARM\ARMCLANG\Bin'
+Build target 'Lab11'
+assembling startup.s...
+main.c(21): warning: passing 'char[15]' to parameter of type 'unsigned char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+   21 |   UART_OutString("Running Lab 11");
+      |                  ^~~~~~~~~~~~~~~~
+./UART.h(77): note: passing argument to parameter 'buffer' here
+   77 | void UART_OutString(unsigned char buffer[]);
+      |                                   ^
+main.c(23): warning: passing 'char[9]' to parameter of type 'unsigned char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+   23 |     UART_OutString("\n\rInput:");
+      |                    ^~~~~~~~~~~~
+./UART.h(77): note: passing argument to parameter 'buffer' here
+   77 | void UART_OutString(unsigned char buffer[]);
+      |                                   ^
+main.c(25): warning: passing 'char[17]' to parameter of type 'unsigned char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+   25 |     UART_OutString(" UART_OutUDec = ");
+      |                    ^~~~~~~~~~~~~~~~~~
+./UART.h(77): note: passing argument to parameter 'buffer' here
+   77 | void UART_OutString(unsigned char buffer[]);
+      |                                   ^
+main.c(27): warning: passing 'char[23]' to parameter of type 'unsigned char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+   27 |     UART_OutString(",  UART_OutDistance ~ ");
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~
+./UART.h(77): note: passing argument to parameter 'buffer' here
+   77 | void UART_OutString(unsigned char buffer[]);
+      |                                   ^
+4 warnings generated.
+compiling main.c...
+compiling UART.c...
+linking...
+Program Size: Code=3276 RO-data=696 RW-data=44 ZI-data=1760  
+".\Lab11.axf" - 0 Error(s), 4 Warning(s).
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
